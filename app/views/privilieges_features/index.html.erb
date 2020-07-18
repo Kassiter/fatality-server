@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Privilieges Features</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @privilieges_features.each do |privilieges_feature| %>
+      <tr>
+        <td><%= link_to 'Show', privilieges_feature %></td>
+        <td><%= link_to 'Edit', edit_privilieges_feature_path(privilieges_feature) %></td>
+        <td><%= link_to 'Destroy', privilieges_feature, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Privilieges Feature', new_privilieges_feature_path %>

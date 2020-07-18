@@ -1,0 +1,17 @@
+<%= form_with(model: privilieges_feature, local: true) do |form| %>
+  <% if privilieges_feature.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(privilieges_feature.errors.count, "error") %> prohibited this privilieges_feature from being saved:</h2>
+
+      <ul>
+        <% privilieges_feature.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
