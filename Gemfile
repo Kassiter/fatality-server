@@ -29,7 +29,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rails_admin', '~> 2.0'
 gem 'devise'
+gem 'pry-rails', :group => :development
+gem 'cancancan'
 gem 'rack-cors'
+gem 'steam-id'
+gem 'omniauth-steam'
+gem 'faker'
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
