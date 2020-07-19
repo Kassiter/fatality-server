@@ -37,7 +37,7 @@ class UsersController < ApplicationController
    end
 
    def update_user!(user_steam_data)
-      User.update!(
+      User.update(
          nickname: user_steam_data['personaname'],
          steamID: user_steam_data['steamID'],
          steamID64: user_steam_data['steamid'],
