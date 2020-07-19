@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
    skip_before_action :verify_authenticity_token, :only => :handle_steam_login   
+
+   $frontend = ENV['RAILS_ENV'] == 'development' ? 'http://localhost:3001' : 'http://rollindeuce-client.herokuapp.com'
    def handle_steam_login
      # binding.pry
      user_steam_data = request.env['omniauth.auth']
@@ -13,7 +15,7 @@ class UsersController < ApplicationController
       else
          register_user!(user_steam_data)
       end
-      redirect_to("http://localhost:3001?steam_data=#{user_steam_data.to_json}")
+      redirect_to("#{$frontend}?steam_data=#{user_steam_data.to_json}")
    end   
 
    def get_steam_ID(steamID64)

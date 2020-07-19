@@ -17,7 +17,7 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  username: postgres
+  
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -25,6 +25,7 @@ default: &default
 development:
   <<: *default
   database: rollindeuce_server_development
+  username: postgres
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -83,4 +84,4 @@ production:
   <<: *default
   database: rollindeuce_server_production
   username: rollindeuce_server
-  password: <%= ENV['ROLLINDEUCE_SERVER_DATABASE_PASSWORD'] %>
+  password: rollindeuce_database_password!
