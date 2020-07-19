@@ -12,7 +12,7 @@ class PriviliegesController < ApplicationController
   end
 
   # GET /privilieges/1
-  # GET /privilieges/1.json
+  # GET /privilieges/1.json       
   def show
   end
 

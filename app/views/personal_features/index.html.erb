@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Personal Features</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @personal_features.each do |personal_feature| %>
+      <tr>
+        <td><%= link_to 'Show', personal_feature %></td>
+        <td><%= link_to 'Edit', edit_personal_feature_path(personal_feature) %></td>
+        <td><%= link_to 'Destroy', personal_feature, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Personal Feature', new_personal_feature_path %>

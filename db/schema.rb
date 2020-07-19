@@ -10,10 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_18_232603) do
+ActiveRecord::Schema.define(version: 2020_07_19_122909) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "personal_features", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "img_url", null: false
+    t.string "option_name_basic", null: false
+    t.string "option_name_advanced", null: false
+    t.string "option_basic_link", null: false
+    t.string "option_advanced_link", null: false
+    t.decimal "option_basic_cost", null: false
+    t.decimal "option_advanced_cost", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "tooltip", default: ""
+    t.boolean "login_locked", default: false
+  end
 
   create_table "privilieges", force: :cascade do |t|
     t.string "name", null: false

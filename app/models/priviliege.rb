@@ -1,5 +1,5 @@
 class Priviliege < ApplicationRecord
-   has_and_belongs_to_many :privilieges_features, join_table: :privilieges_privilieges_features
+   has_and_belongs_to_many :privilieges_features, join_table: :privilieges_privilieges_features, order: "name DESC"
    
    validates :name, presence: true
    validates :link_lifetime, presence: true

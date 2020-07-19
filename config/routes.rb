@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :personal_features
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :privilieges_features
   resources :privilieges
