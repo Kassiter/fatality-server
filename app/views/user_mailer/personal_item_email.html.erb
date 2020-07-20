@@ -3,16 +3,73 @@
 <html>
   <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <style type="text/css" media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+      }
+
+      .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        /* font-weight: 300 !important; */
+      }      
+
+      .heading{
+        width: 100%;
+        height: 200px;
+        background-image: url('https://i.imgur.com/T6sxt6q.png');
+        background-size: 120% 120%;
+        background-position: center;
+      }
+
+      .link{
+        color: white !important;
+      }
+
+      .container-1{
+        width: 100% !important;
+        background-color: rgb(19, 19, 19);
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+      }
+
+      .desc{
+        margin-left: 30px;
+      }
+
+      .footer{
+        padding: 25px;
+        width: 94.5%;
+        background-color: rgb(39, 39, 39);
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to example.com, <%= @user.nickname %></h1>
-    <p>
-      You have successfully signed up to example.com,
-      your username is: <%= @user.nickname %>.<br>
-    </p>
-    <p>
-      To login to the site, just follow this link:
-    </p>
-    <p>Thanks for joining and have a great day!</p>
+    <div class="card">
+      <div class="heading"></div>
+      <div class="container-1">
+        <h1>Персональный товар</h1>
+        <div class="desc">
+          <p><%= @user.nickname %>, Ваш персональный товар обрабатывается.<p/>
+          <p>Обычно обработка заказа занимает от одного до трёх часов в рабочее время.<p/>
+          <p>Мы свяжемся с Вами, когда товар будет готов.<p/>
+          <p>Если по прошествию указанного времени, с Вами всё ещё не связались, просьба ответить на данное письмо, либо написать в <a href="https://tele.click/rollindeuce" class="link">Telegram</a></p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>С уважением, администрация Rollin'Deuce.</p>
+        <p>rollindeuce.online</p>
+      </div>
+    </div>
   </body>
 </html>
