@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Ability
+  connects_to database: { writing: :primary, reading: :primary }
+
   include CanCan::Ability
   def initialize(user)
     can :read, :all                 # allow everyone to read everything

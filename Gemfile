@@ -36,6 +36,8 @@ gem 'steam-id'
 gem 'omniauth-steam'
 gem 'faker'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+gem 'mysql2'
+gem 'activerecord-mysql2-adapter'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

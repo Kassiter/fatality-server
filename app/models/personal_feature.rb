@@ -1,4 +1,6 @@
 class PersonalFeature < ApplicationRecord
+   connects_to database: { writing: :primary, reading: :primary }
+   
    validates :name, presence: true
    validates :img_url, presence: true
    validates :option_name_basic, presence: true

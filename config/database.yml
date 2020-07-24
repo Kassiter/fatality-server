@@ -13,19 +13,22 @@
 #
 # Configure Using Gemfile
 # gem 'pg'
-#
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+#  
 
 development:
-  <<: *default
-  database: rollindeuce_server_development
-  username: postgres
+  primary:
+    database: rollindeuce_server_development
+    username: postgres
+    adapter: postgresql
+    encoding: unicode
+    pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  server:
+    database: mysql26836
+    adapter: mysql2
+    encoding: utf8
+    host: cshost.su
+    username: mysql26836
+    password: 6FO5eIjXid
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,7 +61,6 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
   database: rollindeuce_server_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -81,7 +83,20 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: rollindeuce_server_production
-  username: rollindeuce_server
-  password: rollindeuce_database_password!
+  primary:
+    database: rollindeuce_server_production
+    username: rollindeuce_server
+    password: rollindeuce_database_password!
+    adapter: postgresql
+    encoding: unicode
+    pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  server:
+    database: mysql26836
+    adapter: mysql2
+    encoding: utf8
+    host: cshost.su
+    username: mysql26836
+    password: 6FO5eIjXid
+
+
+

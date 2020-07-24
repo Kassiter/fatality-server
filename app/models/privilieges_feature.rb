@@ -1,4 +1,5 @@
 class PriviliegesFeature < ApplicationRecord
+   connects_to database: { writing: :primary, reading: :primary }
    has_and_belongs_to_many :privilieges, join_table: :privilieges_privilieges_features
    
    validates :icon, presence: true

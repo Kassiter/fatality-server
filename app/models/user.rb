@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  connects_to database: { writing: :primary, reading: :primary }
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   inheritance_column = nil
