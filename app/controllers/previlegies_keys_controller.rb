@@ -1,2 +1,2 @@
-class PriviliegesKeysController < ApplicationController
+class PrevilegiesKeysController < ApplicationController
 end
