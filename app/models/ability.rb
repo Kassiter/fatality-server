@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Ability
-#  connects_to database: { writing: :primary, reading: :primary }
+  #connects_to database: { writing: :primary, reading: :primary }
 
   include CanCan::Ability
   def initialize(user)
@@ -12,6 +12,14 @@ class Ability
     
     if user.superadmin?
       can :manage, :all
+      # can :manage, :personal_feature
+      # can :manage, :contest
+      # can :manage, :contests_user
+      # can :manage, :priviliege
+      # can :manage, :privilieges_feature
+      # can :manage, :user
+      # can :manage, :moder_contests_user
+      # can :manage, :moder_contest
       can :read, :dashboard   
     end        # allow superadmins to do anything
     # elsif user.role? :manager
