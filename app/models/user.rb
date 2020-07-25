@@ -4,6 +4,9 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   inheritance_column = nil
   has_many :personal_items
+  has_many :contests_users
+  has_many :moder_contests_users
+
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 

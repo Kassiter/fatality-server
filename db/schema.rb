@@ -10,10 +10,46 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_21_165926) do
+ActiveRecord::Schema.define(version: 2020_07_25_175828) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "contests", force: :cascade do |t|
+    t.string "title", null: false
+    t.string "description", null: false
+    t.string "image", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "due_date"
+  end
+
+  create_table "contests_users", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "contest_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.boolean "winner", default: false
+  end
+
+  create_table "moder_contests", force: :cascade do |t|
+    t.integer "age", null: false
+    t.string "experience", null: false
+    t.string "reason", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "moder_contests_users", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id", null: false
+    t.integer "moder_contest_id", null: false
+    t.boolean "winner", null: false
+    t.integer "age", null: false
+    t.string "experience", null: false
+    t.string "reason", null: false
+  end
 
   create_table "personal_features", force: :cascade do |t|
     t.string "name", null: false
