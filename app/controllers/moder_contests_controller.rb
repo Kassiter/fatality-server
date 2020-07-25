@@ -1,0 +1,3 @@
+class ModerContestsController < ApplicationController
+
+end
