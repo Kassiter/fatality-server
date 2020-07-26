@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_25_175828) do
+ActiveRecord::Schema.define(version: 2020_07_26_150102) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,11 +33,9 @@ ActiveRecord::Schema.define(version: 2020_07_25_175828) do
   end
 
   create_table "moder_contests", force: :cascade do |t|
-    t.integer "age", null: false
-    t.string "experience", null: false
-    t.string "reason", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.datetime "due_date"
   end
 
   create_table "moder_contests_users", force: :cascade do |t|

@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get '/users/vip_data', to: "vip_users#show_vip"
   get 'users/refresh', to: "users#refresh_user_data"
   post 'contests/take_part', to: "contests#take_part"
+  post 'moder_contest/take_part', to: "moder_contests#take_part"
   post '/personal_items/request_item', to: "personal_items#request_item"
   get '/auth/steam/callback', to: "users#handle_steam_login"
   post '/auth/steam/callback', to: "users#handle_steam_login"
