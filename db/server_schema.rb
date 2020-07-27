@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_26_150102) do
+ActiveRecord::Schema.define(version: 2020_07_27_095524) do
 
   create_table "contests", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title", null: false
@@ -120,6 +120,46 @@ ActiveRecord::Schema.define(version: 2020_07_26_150102) do
   create_table "privilieges_privilieges_features", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "priviliege_id", null: false
     t.bigint "privilieges_feature_id", null: false
+  end
+
+  create_table "refunds", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "when_buyed"
+    t.string "buyer_nickname"
+    t.string "priviliege_type"
+    t.string "proofs"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
+  end
+
+  create_table "shop_boughts", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.integer "player_id", null: false
+    t.integer "item_id", null: false
+    t.integer "count", null: false
+    t.integer "duration", null: false
+    t.integer "timeleft", null: false
+    t.integer "buy_price", null: false
+    t.integer "sell_price", null: false
+    t.integer "buy_time"
+  end
+
+  create_table "shop_items", id: :integer, options: "ENGINE=MyISAM DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.string "category", limit: 64, null: false
+    t.string "item", limit: 64, null: false
+  end
+
+  create_table "shop_players", id: :integer, options: "ENGINE=MyISAM DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.string "name", limit: 32, default: "unknown", null: false
+    t.string "auth", limit: 22, null: false
+    t.integer "money", null: false
+    t.integer "lastconnect"
+    t.index ["auth"], name: "auth", unique: true
+  end
+
+  create_table "shop_toggles", id: :integer, options: "ENGINE=MyISAM DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.integer "player_id", null: false
+    t.integer "item_id", null: false
+    t.integer "state", limit: 1, default: 0, null: false
   end
 
   create_table "sm_cookie_cache", primary_key: ["player", "cookie_id"], options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|

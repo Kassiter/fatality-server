@@ -6,6 +6,7 @@ class User < ApplicationRecord
   has_many :personal_items
   has_many :contests_users
   has_many :moder_contests_users
+  has_one :refund
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable

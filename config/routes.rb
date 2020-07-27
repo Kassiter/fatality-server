@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :refunds
   resources :contests
   resources :moder_contests
   resources :previlegies_keys
@@ -13,6 +14,8 @@ Rails.application.routes.draw do
   get 'users/refresh', to: "users#refresh_user_data"
   post 'contests/take_part', to: "contests#take_part"
   post 'moder_contest/take_part', to: "moder_contests#take_part"
+  post 'refund/take_part', to: "refunds#apply_form"
+  get  'refund/participating', to: "refunds#participating"
   post '/personal_items/request_item', to: "personal_items#request_item"
   get '/auth/steam/callback', to: "users#handle_steam_login"
   post '/auth/steam/callback', to: "users#handle_steam_login"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_26_150102) do
+ActiveRecord::Schema.define(version: 2020_07_27_095524) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -103,6 +103,16 @@ ActiveRecord::Schema.define(version: 2020_07_26_150102) do
   create_table "privilieges_privilieges_features", id: false, force: :cascade do |t|
     t.bigint "priviliege_id", null: false
     t.bigint "privilieges_feature_id", null: false
+  end
+
+  create_table "refunds", force: :cascade do |t|
+    t.string "when_buyed"
+    t.string "buyer_nickname"
+    t.string "priviliege_type"
+    t.string "proofs"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
