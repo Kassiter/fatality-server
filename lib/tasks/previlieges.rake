@@ -9,7 +9,7 @@ namespace :privilieges do
       File.write(file_name_month, "", mode: 'a');
       15.times do
         base = Faker::String.random(length: 4..6)
-        key = Digest::SHA256.base64digest(base).slice(0, 20)
+        key = Digest::SHA256.bubblebabble(base).slice(0, 28)
         File.write(file_name_month, "#{key}\n", mode: 'a')
         PrevilegiesKey.create!(
           key_name: key, 
@@ -25,7 +25,7 @@ namespace :privilieges do
       File.write(file_name_lifetime, "", mode: 'a');
       15.times do
         base = Faker::String.random(length: 4..6)
-        key = Digest::SHA256.hexdigest(base).slice(0, 20)
+        key = Digest::SHA256.bubblebabble(base).slice(0, 28)
         File.write(file_name_lifetime, "#{key}\n", mode: 'a')
         PrevilegiesKey.create!(
           key_name: key, 

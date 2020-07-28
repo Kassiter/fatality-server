@@ -19,4 +19,8 @@ class User < ApplicationRecord
   def admin?
     %w(superadmin moderator).include? role
   end
+
+  def title
+    nickname
+  end
 end
