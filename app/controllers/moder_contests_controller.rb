@@ -3,12 +3,12 @@ class ModerContestsController < ApplicationController
 
    def index
       contest = ModerContest.where('due_date > ?', DateTime.now).last
-      return render json: {contest: nil} if contest.nil?
-     
+      user = User.find_by(steamID: params[:steam_id])
+      winner = ModerContestsUser.where(user_id: user.id).last.try(:winner) || false
+      return render json: {contest: nil, winner: winner} if contest.nil?
       contest_id = contest.id
       contest = contest.as_json
       contest["due_date"] = contest["due_date"].to_date.strftime("%d.%m.%y")
-      user = User.find_by(steamID: params[:steam_id])
       participating = ModerContestsUser.find_by(user_id: user.id, moder_contest_id: contest_id).present?
       contest["participating"] = participating
       render json: {contest: contest}
