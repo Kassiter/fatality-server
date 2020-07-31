@@ -65,5 +65,10 @@ class UsersController < ApplicationController
       )
       @user = User.find_by(steamID: user_steam_data['steamID'])
    end
+
+   def get_m_points
+      user = User.find_by(steamID: params[:steam_id])
+      return render json: {m_points: user.m_points}
+   end
 end
  

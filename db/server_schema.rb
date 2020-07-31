@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_31_105500) do
+ActiveRecord::Schema.define(version: 2020_07_31_194905) do
 
   create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "key", null: false
@@ -61,6 +61,13 @@ ActiveRecord::Schema.define(version: 2020_07_31_105500) do
   create_table "keys_servers", primary_key: "sid", id: :integer, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address", limit: 24, null: false
     t.index ["address"], name: "address", unique: true
+  end
+
+  create_table "logs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "text", null: false
+    t.date "on_date", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "moder_contests", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -214,6 +221,7 @@ ActiveRecord::Schema.define(version: 2020_07_31_105500) do
     t.integer "m_type", default: 3
     t.string "auth_token", default: ""
     t.string "key_phrase", default: ""
+    t.decimal "m_points", precision: 10, default: "0"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

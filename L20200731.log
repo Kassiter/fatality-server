@@ -1,0 +1,1104 @@
+L 07/31/2020 - 00:00:14: SourceMod log file session started (file "/host/48143/26836/csgo/addons/sourcemod/logs/L20200731.log") (Version "1.10.0.6492")
+L 07/31/2020 - 00:00:14: [SM] Changed map to "workshop/913095422/horror_house_v2"
+L 07/31/2020 - 00:00:16: -------- Mapchange to workshop/913095422/horror_house_v2 --------
+L 07/31/2020 - 00:00:19: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 00:00:36: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:00:36: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:00:36: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<137><STEAM_1:1:124378502><>
+L 07/31/2020 - 00:02:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:02:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:02:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<137><STEAM_1:1:124378502><>
+L 07/31/2020 - 00:12:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:12:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:12:20: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<137><STEAM_1:1:124378502><>
+L 07/31/2020 - 00:17:35: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 00:21:45: [SM] Changed map to "workshop/810021775/seek_foresthouse_snowy"
+L 07/31/2020 - 00:21:46: -------- Mapchange to workshop/810021775/seek_foresthouse_snowy --------
+L 07/31/2020 - 00:21:49: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 00:22:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:22:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:22:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<137><STEAM_1:1:124378502><>
+L 07/31/2020 - 00:31:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:31:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<137><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 00:31:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<137><STEAM_1:1:124378502><>
+L 07/31/2020 - 00:39:29: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 07:24:58: -------- Mapchange to workshop/810021775/seek_foresthouse_snowy --------
+L 07/31/2020 - 07:25:00: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 07:25:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:25:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:25:46: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:35:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:35:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:35:01: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:35:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<147><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 07:35:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<147><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 07:35:32: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<147><STEAM_1:1:541751560><>
+L 07/31/2020 - 07:37:57: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:37:57: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:37:57: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:42:46: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 07:42:56: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/647816270/hide_park.
+L 07/31/2020 - 07:47:27: [SM] Changed map to "workshop/647816270/hide_park"
+L 07/31/2020 - 07:47:28: -------- Mapchange to workshop/647816270/hide_park --------
+L 07/31/2020 - 07:47:30: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 07:48:09: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:48:09: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:48:09: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:49:03: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:49:03: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:49:03: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:52:31: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<148><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 07:52:31: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<148><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 07:52:31: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<148><STEAM_1:0:556959071><>
+L 07/31/2020 - 07:56:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:56:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 07:56:42: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 07:59:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 07:59:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 07:59:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on Дед Джиджириджи<150><STEAM_1:1:446905558><>
+L 07/31/2020 - 08:01:05: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:11: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:14: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:38: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:01:38: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:01:43: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:01:43: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:01:45: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:47: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:49: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:01:49: [advadmin.smx] T-double-U: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 08:06:02: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 08:06:22: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/818729561/seek_whitewoods.
+L 07/31/2020 - 08:06:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:06:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:06:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 08:08:35: [playercommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" slayed "Сайфер<146><STEAM_1:1:158498216><>"
+L 07/31/2020 - 08:08:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:08:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:08:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<151><STEAM_1:0:556959071><>
+L 07/31/2020 - 08:15:32: [SM] Changed map to "workshop/818729561/seek_whitewoods"
+L 07/31/2020 - 08:15:34: -------- Mapchange to workshop/818729561/seek_whitewoods --------
+L 07/31/2020 - 08:15:36: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:15:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:15:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:15:49: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<151><STEAM_1:0:556959071><>
+L 07/31/2020 - 08:16:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:16:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:16:02: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<151><STEAM_1:0:556959071><>
+L 07/31/2020 - 08:16:51: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:16:52: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:16:54: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:16:55: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:19:28: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 08:19:28: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 08:19:49: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/907407830/me_map.
+L 07/31/2020 - 08:21:16: [SM] Changed map to "workshop/907407830/me_map"
+L 07/31/2020 - 08:21:17: -------- Mapchange to workshop/907407830/me_map --------
+L 07/31/2020 - 08:21:19: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:21:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:21:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:21:35: [Godmode.smx] Console<0><Console><Console> enabled godmode on Дед Джиджириджи<150><STEAM_1:1:446905558><>
+L 07/31/2020 - 08:22:04: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:22:08: [funcommands.smx] "T-double-U<149><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<149><STEAM_1:1:153969439><>"
+L 07/31/2020 - 08:22:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:22:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:22:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on Дед Джиджириджи<150><STEAM_1:1:446905558><>
+L 07/31/2020 - 08:22:32: [advadmin.smx] T-double-U: CTs disarmed
+L 07/31/2020 - 08:22:35: [advadmin.smx] T-double-U: CTs got this: knife
+L 07/31/2020 - 08:23:32: [advadmin.smx] T-double-U: T-double-U got this: taser
+L 07/31/2020 - 08:24:52: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<149><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:24:52: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<149><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:24:52: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<149><STEAM_1:1:153969439><>
+L 07/31/2020 - 08:25:31: [advadmin.smx] T-double-U: CTs disarmed
+L 07/31/2020 - 08:25:32: [advadmin.smx] T-double-U: CTs got this: knife
+L 07/31/2020 - 08:26:13: [advadmin.smx] T-double-U: Restarting the round.
+L 07/31/2020 - 08:26:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:26:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<151><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 08:26:13: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<151><STEAM_1:0:556959071><>
+L 07/31/2020 - 08:26:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:26:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "Дед Джиджириджи<150><STEAM_1:1:446905558><>" health to  10000
+L 07/31/2020 - 08:26:32: [Godmode.smx] Console<0><Console><Console> enabled godmode on Дед Джиджириджи<150><STEAM_1:1:446905558><>
+L 07/31/2020 - 08:31:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:31:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<146><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:31:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<146><STEAM_1:1:158498216><>
+L 07/31/2020 - 08:34:23: SourceMod log file session started (file "/host/48143/26836/csgo/addons/sourcemod/logs/L20200731.log") (Version "1.10.0.6492")
+L 07/31/2020 - 08:34:23: [GEOIP] GeoIP database info: GEO-106FREE 20180327 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved
+L 07/31/2020 - 08:34:26: [keys/Keys_VIP.smx] Keys_OnCoreStarted: 1.015625
+L 07/31/2020 - 08:34:27: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 08:34:30: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:34:31: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 08:34:34: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:34:34: [weapons.smx] MySQL DB connection successful
+L 07/31/2020 - 08:34:34: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:34:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:34:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:34:55: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 08:37:10: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<3><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:37:10: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<3><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 08:37:10: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<3><STEAM_1:1:158498216><>
+L 07/31/2020 - 08:45:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:45:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 08:45:13: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 08:49:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 08:49:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 08:49:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<4><STEAM_1:1:167184306><>
+L 07/31/2020 - 08:51:54: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 08:52:04: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/813886545/seek_abandonedhouse_snowy.
+L 07/31/2020 - 08:59:07: [SM] Changed map to "workshop/813886545/seek_abandonedhouse_snowy"
+L 07/31/2020 - 08:59:08: -------- Mapchange to workshop/813886545/seek_abandonedhouse_snowy --------
+L 07/31/2020 - 08:59:10: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 08:59:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 08:59:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 08:59:26: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<4><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<3><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 09:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Сайфер<3><STEAM_1:1:158498216><>" health to  10000
+L 07/31/2020 - 09:08:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on Сайфер<3><STEAM_1:1:158498216><>
+L 07/31/2020 - 09:16:14: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:16:14: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<4><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:16:14: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<4><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:16:25: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 09:16:25: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 09:16:46: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/647816270/hide_park.
+L 07/31/2020 - 09:17:09: [advadmin.smx] ◥◣ ◢◤: Wins wars respawned
+L 07/31/2020 - 09:19:57: [SM] Changed map to "workshop/647816270/hide_park"
+L 07/31/2020 - 09:19:58: -------- Mapchange to workshop/647816270/hide_park --------
+L 07/31/2020 - 09:20:01: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:20:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<9><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:20:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<9><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:20:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<9><STEAM_1:0:556959071><>
+L 07/31/2020 - 09:21:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Naruto •<8><STEAM_1:0:540856276><>" health to  10000
+L 07/31/2020 - 09:21:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<9><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:21:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Naruto •<8><STEAM_1:0:540856276><>" health to  10000
+L 07/31/2020 - 09:21:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<9><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:21:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on Naruto •<8><STEAM_1:0:540856276><>
+L 07/31/2020 - 09:21:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<9><STEAM_1:0:556959071><>
+L 07/31/2020 - 09:21:40: SourceMod log file session started (file "/host/48143/26836/csgo/addons/sourcemod/logs/L20200731.log") (Version "1.10.0.6492")
+L 07/31/2020 - 09:21:40: [GEOIP] GeoIP database info: GEO-106FREE 20180327 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved
+L 07/31/2020 - 09:21:44: [keys/Keys_VIP.smx] Keys_OnCoreStarted: 1.015625
+L 07/31/2020 - 09:21:46: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 09:21:48: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:21:50: [weapons.smx] MySQL DB connection successful
+L 07/31/2020 - 09:21:51: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:21:54: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 09:21:56: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:22:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<2><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:22:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<2><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:22:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<2><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:23:04: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:23:04: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:23:04: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<3><STEAM_1:1:102112143><>
+L 07/31/2020 - 09:23:44: [advadmin.smx] T-double-U: T-double-U respawned
+L 07/31/2020 - 09:30:06: [advadmin.smx] T-double-U: T-double-U has been swapped
+L 07/31/2020 - 09:30:28: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<2><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:30:28: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<2><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:30:28: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<2><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:32:00: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 09:32:00: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 09:32:16: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/896007886/hide_and_seek_metro.
+L 07/31/2020 - 09:32:42: [playercommands.smx] "T-double-U<4><STEAM_1:1:153969439><>" slayed "BIG CHUNGUS<2><STEAM_1:1:167184306><>"
+L 07/31/2020 - 09:32:44: [SM] Changed map to "workshop/896007886/hide_and_seek_metro"
+L 07/31/2020 - 09:32:45: -------- Mapchange to workshop/896007886/hide_and_seek_metro --------
+L 07/31/2020 - 09:32:47: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:33:08: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:33:08: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:33:08: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<3><STEAM_1:1:102112143><>
+L 07/31/2020 - 09:35:58: SourceMod log file session started (file "/host/48143/26836/csgo/addons/sourcemod/logs/L20200731.log") (Version "1.10.0.6492")
+L 07/31/2020 - 09:35:58: [GEOIP] GeoIP database info: GEO-106FREE 20180327 Build 1 Copyright (c) 2018 MaxMind Inc All Rights Reserved
+L 07/31/2020 - 09:36:02: [keys/Keys_VIP.smx] Keys_OnCoreStarted: 1.015625
+L 07/31/2020 - 09:36:03: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 09:36:06: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:36:08: -------- Mapchange to workshop/789008985/hideandseek_fridaythe13th --------
+L 07/31/2020 - 09:36:10: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:36:11: [weapons.smx] MySQL DB connection successful
+L 07/31/2020 - 09:36:11: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:36:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:36:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:36:37: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 09:36:41: [advadmin.smx] T-double-U: T-double-U has been swapped
+L 07/31/2020 - 09:37:31: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:31: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:34: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:35: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:55: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:56: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:57: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:37:58: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:39:52: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 09:39:52: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 09:40:03: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/852599987/ShoppingCenter[HideAndSeek].
+L 07/31/2020 - 09:40:24: [SM] Changed map to "workshop/852599987/ShoppingCenter[HideAndSeek]"
+L 07/31/2020 - 09:40:24: -------- Mapchange to workshop/852599987/ShoppingCenter[HideAndSeek] --------
+L 07/31/2020 - 09:40:27: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:40:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:40:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:40:49: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<3><STEAM_1:1:102112143><>
+L 07/31/2020 - 09:41:43: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:41:43: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<3><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 09:41:43: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<3><STEAM_1:1:102112143><>
+L 07/31/2020 - 09:46:17: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 09:46:17: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 09:46:24: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/2153275181/krevetka21.
+L 07/31/2020 - 09:46:39: [SM] Changed map to "workshop/2153275181/krevetka21"
+L 07/31/2020 - 09:46:40: -------- Mapchange to workshop/2153275181/krevetka21 --------
+L 07/31/2020 - 09:46:43: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 09:47:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:47:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:47:02: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 09:47:06: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:47:14: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:47:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:47:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 09:47:56: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 09:48:18: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:48:19: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:48:56: [advadmin.smx] T-double-U: Restarting the round.
+L 07/31/2020 - 09:48:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:48:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:48:56: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<5><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:49:24: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:49:26: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:49:27: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:49:28: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 09:52:25: [advadmin.smx] T-double-U: T-double-U has been swapped
+L 07/31/2020 - 09:54:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<6><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:54:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<6><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:54:05: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<6><STEAM_1:0:556959071><>
+L 07/31/2020 - 09:56:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:56:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 09:56:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<5><STEAM_1:1:167184306><>
+L 07/31/2020 - 09:58:47: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<6><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:58:47: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<6><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 09:58:47: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<6><STEAM_1:0:556959071><>
+L 07/31/2020 - 10:04:18: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:04:18: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<5><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:04:18: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<5><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:04:55: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 10:05:09: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:05:11: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:05:16: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/647816270/hide_park.
+L 07/31/2020 - 10:06:01: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:06:05: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:06:28: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:06:29: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:06:35: [playercommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" slayed "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:07:16: [basechat.smx] "T-double-U<2><STEAM_1:1:153969439><>" triggered sm_psay to "Wins wars<6><STEAM_1:0:556959071><>" (text сколько)
+L 07/31/2020 - 10:07:25: [basechat.smx] "T-double-U<2><STEAM_1:1:153969439><>" triggered sm_psay to "Wins wars<6><STEAM_1:0:556959071><>" (text сколько тебе лет?)
+L 07/31/2020 - 10:09:19: [SM] Changed map to "workshop/647816270/hide_park"
+L 07/31/2020 - 10:09:21: -------- Mapchange to workshop/647816270/hide_park --------
+L 07/31/2020 - 10:09:24: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 10:09:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "Hentai! GOD OF THIS GAME<7><STEAM_1:0:557014407><>" health to  10000
+L 07/31/2020 - 10:09:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "Hentai! GOD OF THIS GAME<7><STEAM_1:0:557014407><>" health to  10000
+L 07/31/2020 - 10:09:48: [Godmode.smx] Console<0><Console><Console> enabled godmode on Hentai! GOD OF THIS GAME<7><STEAM_1:0:557014407><>
+L 07/31/2020 - 10:10:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "vyachick199511<8><STEAM_1:1:487778207><>" health to  10000
+L 07/31/2020 - 10:10:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "vyachick199511<8><STEAM_1:1:487778207><>" health to  10000
+L 07/31/2020 - 10:10:42: [Godmode.smx] Console<0><Console><Console> enabled godmode on vyachick199511<8><STEAM_1:1:487778207><>
+L 07/31/2020 - 10:13:05: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ has been swapped
+L 07/31/2020 - 10:13:30: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ respawned
+L 07/31/2020 - 10:15:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:15:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:15:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:15:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:15:00: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:15:00: [Godmode.smx] Console<0><Console><Console> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:18:52: [advadmin.smx] T-double-U: ponomar1ponomar respawned
+L 07/31/2020 - 10:19:29: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 10:19:29: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 10:19:50: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/791303090/hs_classic_d.
+L 07/31/2020 - 10:19:53: [advadmin.smx] T-double-U: ponomar1ponomar respawned
+L 07/31/2020 - 10:19:55: [advadmin.smx] T-double-U: Terrorists's godmode set to: 1
+L 07/31/2020 - 10:19:55: [Godmode.smx] T-double-U<2><STEAM_1:1:153969439><> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:19:55: [Godmode.smx] T-double-U<2><STEAM_1:1:153969439><> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:22:12: [materialadmin.smx] "Console<0><Console><Console>" mute "ponomar1ponomar (STEAM_1:0:202741374 IP_46.219.207.44)" (minutes "0") (reason "Muted through base commands natives")
+L 07/31/2020 - 10:22:12: [sbpp_comms.smx] "T-double-U<2><STEAM_1:1:153969439><>" muted "ponomar1ponomar<11><STEAM_1:0:202741374><>" (minutes "30") (reason "Other")
+L 07/31/2020 - 10:22:12: [sbpp_comms.smx] Saving punishment for STEAM_1:0:202741374 into queue
+L 07/31/2020 - 10:22:39: [SM] Changed map to "workshop/791303090/hs_classic_d"
+L 07/31/2020 - 10:22:40: -------- Mapchange to workshop/791303090/hs_classic_d --------
+L 07/31/2020 - 10:22:43: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 10:22:52: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:22:52: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:22:52: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:23:01: [advadmin.smx] T-double-U: Restarting the round.
+L 07/31/2020 - 10:23:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 10:23:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 10:23:01: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 10:23:05: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:23:05: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:23:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 10:23:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "T-double-U<2><STEAM_1:1:153969439><>" health to  10000
+L 07/31/2020 - 10:23:55: [Godmode.smx] Console<0><Console><Console> enabled godmode on T-double-U<2><STEAM_1:1:153969439><>
+L 07/31/2020 - 10:25:02: [advadmin.smx] T-double-U: T-double-U got this: taser
+L 07/31/2020 - 10:25:23: [advadmin.smx] T-double-U: T-double-U got this: taser
+L 07/31/2020 - 10:29:53: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:29:56: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:30:33: [advadmin.smx] T-double-U: T-double-U got this: taser
+L 07/31/2020 - 10:33:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:33:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:33:05: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:33:22: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:33:22: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:33:47: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:33:54: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:33:55: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:33:56: [funcommands.smx] "T-double-U<2><STEAM_1:1:153969439><>" toggled noclip on "T-double-U<2><STEAM_1:1:153969439><>"
+L 07/31/2020 - 10:36:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:36:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:36:21: [Godmode.smx] Console<0><Console><Console> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:40:55: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 10:41:15: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/957280394/seek_broken_facility.
+L 07/31/2020 - 10:43:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:43:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:43:05: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:43:17: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ buried
+L 07/31/2020 - 10:43:20: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ disarmed
+L 07/31/2020 - 10:43:28: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ disarmed
+L 07/31/2020 - 10:43:32: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ buried
+L 07/31/2020 - 10:43:35: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ buried
+L 07/31/2020 - 10:43:42: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: deagle
+L 07/31/2020 - 10:43:51: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: p250
+L 07/31/2020 - 10:44:09: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: knife
+L 07/31/2020 - 10:44:25: [advadmin.smx] ◥◣ ◢◤: Teams has been scrambled by skills.
+L 07/31/2020 - 10:44:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:44:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:44:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:44:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:44:26: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:44:26: [Godmode.smx] Console<0><Console><Console> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:44:36: [advadmin.smx] ◥◣ ◢◤: Teams has been scrambled by skills.
+L 07/31/2020 - 10:44:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:44:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:44:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 10:44:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:44:37: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:44:37: [Godmode.smx] Console<0><Console><Console> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:44:57: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s cash set to: $16000
+L 07/31/2020 - 10:45:04: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 1
+L 07/31/2020 - 10:45:04: [Godmode.smx] ◥◣ ◢◤<10><STEAM_1:1:102112143><> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:45:11: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 200
+L 07/31/2020 - 10:45:36: [advadmin.smx] BIG CHUNGUS: CTs's godmode set to: 0
+L 07/31/2020 - 10:45:36: [Godmode.smx] BIG CHUNGUS<9><STEAM_1:1:167184306><> disabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:45:44: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 200
+L 07/31/2020 - 10:46:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 10:46:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 10:46:00: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:46:11: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s helmet set to: 1
+L 07/31/2020 - 10:46:36: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s speed set to: 2.000000
+L 07/31/2020 - 10:46:37: [advadmin.smx] BIG CHUNGUS: ◥◣ ◢◤'s health set to: 100
+L 07/31/2020 - 10:46:49: [advadmin.smx] BIG CHUNGUS: ◥◣ ◢◤'s speed set to: 1
+L 07/31/2020 - 10:47:08: [advadmin.smx] ◥◣ ◢◤: The ball is pumped up, lets play.
+L 07/31/2020 - 10:47:13: [advadmin.smx] ◥◣ ◢◤: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 10:47:16: [advadmin.smx] ◥◣ ◢◤: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 10:47:25: [advadmin.smx] ◥◣ ◢◤: Chicken created. Body: 4, Explode: 100
+L 07/31/2020 - 10:47:36: [advadmin.smx] BIG CHUNGUS: Chicken created. Body: 0, Explode: 0
+L 07/31/2020 - 10:48:38: [advadmin.smx] BIG CHUNGUS: Chicken created. Body: 2, Explode: 500
+L 07/31/2020 - 10:48:54: [advadmin.smx] BIG CHUNGUS: Chicken created. Body: 1, Explode: 100
+L 07/31/2020 - 10:49:14: [advadmin.smx] ◥◣ ◢◤: Chicken created. Body: 2, Explode: 500
+L 07/31/2020 - 10:49:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:49:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "ponomar1ponomar<11><STEAM_1:0:202741374><>" health to  10000
+L 07/31/2020 - 10:49:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:50:13: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ teleported to ◥◣ ◢◤
+L 07/31/2020 - 10:50:24: [advadmin.smx] BIG CHUNGUS: ◥◣ ◢◤ teleported to BIG CHUNGUS
+L 07/31/2020 - 10:50:24: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ teleported to ◥◣ ◢◤
+L 07/31/2020 - 10:50:35: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ teleported to ◥◣ ◢◤
+L 07/31/2020 - 10:50:51: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ teleported to ◥◣ ◢◤
+L 07/31/2020 - 10:50:55: [advadmin.smx] BIG CHUNGUS: all players teleported to BIG CHUNGUS
+L 07/31/2020 - 10:51:07: [advadmin.smx] ◥◣ ◢◤: ponomar1ponomar teleported to saved location.
+L 07/31/2020 - 10:51:32: [advadmin.smx] ◥◣ ◢◤: ponomar1ponomar teleported to saved location.
+L 07/31/2020 - 10:51:46: [advadmin.smx] BIG CHUNGUS: BIG CHUNGUS has been swapped
+L 07/31/2020 - 10:51:56: [advadmin.smx] BIG CHUNGUS: BIG CHUNGUS's health set to: 1
+L 07/31/2020 - 10:52:02: [advadmin.smx] BIG CHUNGUS: CTs's health set to: 1
+L 07/31/2020 - 10:52:07: [advadmin.smx] BIG CHUNGUS: BIG CHUNGUS's godmode set to: 0
+L 07/31/2020 - 10:52:07: [Godmode.smx] BIG CHUNGUS<9><STEAM_1:1:167184306><> disabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 10:52:16: [advadmin.smx] ◥◣ ◢◤: Detect'чик respawned
+L 07/31/2020 - 10:52:24: [advadmin.smx] BIG CHUNGUS: all players equipped this: decoy
+L 07/31/2020 - 10:53:11: [advadmin.smx] BIG CHUNGUS: all players equipped this: decoy
+L 07/31/2020 - 10:53:16: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: decoy
+L 07/31/2020 - 10:53:25: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: tec9
+L 07/31/2020 - 10:53:46: [advadmin.smx] BIG CHUNGUS: all players got this: decoy
+L 07/31/2020 - 10:53:53: [advadmin.smx] BIG CHUNGUS: Terrorists's health set to: 1
+L 07/31/2020 - 10:53:58: [advadmin.smx] BIG CHUNGUS: Terrorists's godmode set to: 0
+L 07/31/2020 - 10:53:58: [Godmode.smx] BIG CHUNGUS<9><STEAM_1:1:167184306><> disabled godmode on ponomar1ponomar<11><STEAM_1:0:202741374><>
+L 07/31/2020 - 10:54:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 10:54:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 10:54:16: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:55:03: [advadmin.smx] BIG CHUNGUS: Terrorists's godmode set to: 0
+L 07/31/2020 - 10:55:03: [Godmode.smx] BIG CHUNGUS<9><STEAM_1:1:167184306><> disabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:55:06: [advadmin.smx] BIG CHUNGUS: Terrorists's health set to: 1
+L 07/31/2020 - 10:55:40: [advadmin.smx] BIG CHUNGUS: Terrorists's health set to: 99999
+L 07/31/2020 - 10:55:44: [advadmin.smx] BIG CHUNGUS: Terrorists's godmode set to: 1
+L 07/31/2020 - 10:55:44: [Godmode.smx] BIG CHUNGUS<9><STEAM_1:1:167184306><> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 10:55:50: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: taser
+L 07/31/2020 - 10:57:38: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 10:57:38: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 10:57:38: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 10:59:25: [advadmin.smx] BIG CHUNGUS: BIG CHUNGUS's deaths stat modified to: 0
+L 07/31/2020 - 11:01:27: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 11:01:27: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<9><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 11:01:27: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<9><STEAM_1:1:167184306><>
+L 07/31/2020 - 11:05:52: [SM] Changed map to "workshop/957280394/seek_broken_facility"
+L 07/31/2020 - 11:05:53: -------- Mapchange to workshop/957280394/seek_broken_facility --------
+L 07/31/2020 - 11:05:57: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 11:06:08: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:06:08: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:06:08: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:15:23: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 11:15:23: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 11:15:23: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 11:22:36: [funcommands.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" set gravity on "◥◣ ◢◤<10><STEAM_1:1:102112143><>" (amount "2.000000")
+L 07/31/2020 - 11:22:40: [funcommands.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" set gravity on "◥◣ ◢◤<10><STEAM_1:1:102112143><>" (amount "0.500000")
+L 07/31/2020 - 11:22:44: [funcommands.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" set gravity on "◥◣ ◢◤<10><STEAM_1:1:102112143><>" (amount "0.100000")
+L 07/31/2020 - 11:22:55: [funcommands.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" set gravity on "◥◣ ◢◤<10><STEAM_1:1:102112143><>" (amount "1.000000")
+L 07/31/2020 - 11:23:04: [playercommands.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" slayed "Detect'чик<12><STEAM_1:1:541751560><>"
+L 07/31/2020 - 11:23:08: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 11:23:14: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:23:14: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:23:14: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:23:28: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/810021775/seek_foresthouse_snowy.
+L 07/31/2020 - 11:28:27: [rockthevote.smx] RTV changing map manually
+L 07/31/2020 - 11:28:27: [SM] Changed map to "workshop/810021775/seek_foresthouse_snowy"
+L 07/31/2020 - 11:28:29: -------- Mapchange to workshop/810021775/seek_foresthouse_snowy --------
+L 07/31/2020 - 11:28:32: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 11:28:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:28:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:28:56: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:29:22: [advadmin.smx] ◥◣ ◢◤: Detect'чик respawned
+L 07/31/2020 - 11:32:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 11:32:26: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 11:32:26: [Godmode.smx] Console<0><Console><Console> enabled godmode on ►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>
+L 07/31/2020 - 11:32:45: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:32:45: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:32:45: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:32:49: [advadmin.smx] ◥◣ ◢◤: ►𝕎𝕀𝕣𝕓𝕦𝕝◄ has been swapped
+L 07/31/2020 - 11:32:59: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ has been swapped
+L 07/31/2020 - 11:42:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 11:42:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 11:42:00: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 11:44:40: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "микро 12+, матерится(оскорблять) запрещено")
+L 07/31/2020 - 11:45:17: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "ковид больше предупреждения не будет")
+L 07/31/2020 - 11:45:56: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 11:46:03: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/792874424/seek_underground.
+L 07/31/2020 - 11:46:18: [materialadmin.smx] "Console<0><Console><Console>" gag "►𝕎𝕀𝕣𝕓𝕦𝕝◄ (STEAM_1:1:516565488 IP_193.239.142.27)" (minutes "0") (reason "Gag through base commands natives")
+L 07/31/2020 - 11:46:18: [sbpp_comms.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" gagged "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" (minutes "30") (reason "Admin disrespect")
+L 07/31/2020 - 11:46:18: [sbpp_comms.smx] Saving punishment for STEAM_1:1:516565488 into queue
+L 07/31/2020 - 11:46:59: [materialadmin.smx] "Console<0><Console><Console>" un gag "►𝕎𝕀𝕣𝕓𝕦𝕝◄ (STEAM_1:1:516565488 IP_193.239.142.27)" (reason "No reason")
+L 07/31/2020 - 11:46:59: [sbpp_comms.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" temporary ungagged "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" (reason "")
+L 07/31/2020 - 11:48:45: [materialadmin.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" gag "COVID V ROT IBAL (STEAM_1:1:432154963 IP_176.214.40.21)" (minutes "1440") (reason "Неподобающее поведение")
+L 07/31/2020 - 11:51:30: [SM] Changed map to "workshop/792874424/seek_underground"
+L 07/31/2020 - 11:51:31: -------- Mapchange to workshop/792874424/seek_underground --------
+L 07/31/2020 - 11:51:35: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 11:51:47: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:51:47: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:51:47: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:52:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:52:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "mixmax48447<19><STEAM_1:1:556627765><>" health to  10000
+L 07/31/2020 - 11:52:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 11:52:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "mixmax48447<19><STEAM_1:1:556627765><>" health to  10000
+L 07/31/2020 - 11:52:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 11:52:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on mixmax48447<19><STEAM_1:1:556627765><>
+L 07/31/2020 - 12:01:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:01:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:01:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on ►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>
+L 07/31/2020 - 12:09:40: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 12:10:01: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/760706260/hide_and_seek-amk.
+L 07/31/2020 - 12:11:07: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 12:11:07: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 12:11:07: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 12:11:40: [basevotes.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" initiated a generic vote.
+L 07/31/2020 - 12:12:18: [advadmin.smx] ◥◣ ◢◤: The map has been cleared.
+L 07/31/2020 - 12:20:35: [SM] Changed map to "workshop/760706260/hide_and_seek-amk"
+L 07/31/2020 - 12:20:36: -------- Mapchange to workshop/760706260/hide_and_seek-amk --------
+L 07/31/2020 - 12:20:40: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 12:21:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:21:00: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:21:00: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 12:21:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:21:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:21:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 12:23:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:23:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:23:55: [Godmode.smx] Console<0><Console><Console> enabled godmode on ►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>
+L 07/31/2020 - 12:24:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 12:24:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 12:24:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 12:24:35: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "микро 12+")
+L 07/31/2020 - 12:28:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:28:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:28:25: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 12:29:31: [advadmin.smx] ◥◣ ◢◤: Rick1337 respawned
+L 07/31/2020 - 12:33:51: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:33:51: [sm_sethealth.smx] "Console<0><Console><Console>" set "►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>" health to  10000
+L 07/31/2020 - 12:33:51: [Godmode.smx] Console<0><Console><Console> enabled godmode on ►𝕎𝕀𝕣𝕓𝕦𝕝◄<14><STEAM_1:1:516565488><>
+L 07/31/2020 - 12:34:18: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 12:34:18: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 12:34:38: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/1671994990/seek_town_update.
+L 07/31/2020 - 12:39:07: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "микро 12+")
+L 07/31/2020 - 12:39:42: [SM] Changed map to "workshop/1671994990/seek_town_update"
+L 07/31/2020 - 12:39:44: -------- Mapchange to workshop/1671994990/seek_town_update --------
+L 07/31/2020 - 12:39:48: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 12:40:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:40:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:40:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 12:42:15: [advadmin.smx] ◥◣ ◢◤: Restarting the round.
+L 07/31/2020 - 12:42:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<25><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 12:42:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<25><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 12:42:16: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<25><STEAM_1:0:225761533><>
+L 07/31/2020 - 12:43:30: [advadmin.smx] ◥◣ ◢◤: .sozidalnowhere respawned
+L 07/31/2020 - 12:43:45: [advadmin.smx] ◥◣ ◢◤: ►𝕎𝕀𝕣𝕓𝕦𝕝◄ respawned
+L 07/31/2020 - 12:50:58: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "xD")
+L 07/31/2020 - 12:51:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:51:32: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 12:51:32: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 12:52:03: [advadmin.smx] ◥◣ ◢◤: I'm so sorry;) respawned
+L 07/31/2020 - 12:52:16: [advadmin.smx] ◥◣ ◢◤: I'm so sorry;)'s godmode set to: 1
+L 07/31/2020 - 12:52:16: [Godmode.smx] ◥◣ ◢◤<10><STEAM_1:1:102112143><> enabled godmode on I'm so sorry;)<30><STEAM_1:1:247225961><>
+L 07/31/2020 - 12:54:24: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 12:54:24: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 12:54:24: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 12:54:24: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 12:54:24: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 12:54:24: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<29><STEAM_1:1:523226173><>
+L 07/31/2020 - 12:55:05: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "если вы хотите след.раунд играть за маньяка")
+L 07/31/2020 - 12:55:17: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "прописываете maniac")
+L 07/31/2020 - 12:57:30: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 12:57:50: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/896335923/seek_street_rework.
+L 07/31/2020 - 13:03:54: [SM] Changed map to "workshop/896335923/seek_street_rework"
+L 07/31/2020 - 13:03:55: -------- Mapchange to workshop/896335923/seek_street_rework --------
+L 07/31/2020 - 13:03:59: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 13:04:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:04:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:04:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 13:05:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "69<31><STEAM_1:1:529910275><>" health to  10000
+L 07/31/2020 - 13:05:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:05:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "69<31><STEAM_1:1:529910275><>" health to  10000
+L 07/31/2020 - 13:05:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<10><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:05:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on 69<31><STEAM_1:1:529910275><>
+L 07/31/2020 - 13:05:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<10><STEAM_1:1:102112143><>
+L 07/31/2020 - 13:07:33: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: taser
+L 07/31/2020 - 13:07:43: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: taser
+L 07/31/2020 - 13:07:58: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: knife
+L 07/31/2020 - 13:10:11: [basevotes.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" initiated a generic vote.
+L 07/31/2020 - 13:11:04: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "Викторина")
+L 07/31/2020 - 13:11:22: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "всего 10 вопросов")
+L 07/31/2020 - 13:11:40: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "конкурс в след.раунде")
+L 07/31/2020 - 13:13:41: [basechat.smx] "frameocean<33><STEAM_1:0:452144146><>" triggered sm_say (text чек лс)
+L 07/31/2020 - 13:13:44: [basechat.smx] "frameocean<33><STEAM_1:0:452144146><>" triggered sm_say (text чё то там скинул)
+L 07/31/2020 - 13:13:47: [basechat.smx] "frameocean<33><STEAM_1:0:452144146><>" triggered sm_say (text в вк)
+L 07/31/2020 - 13:14:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:14:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<25><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 13:14:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:14:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<25><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 13:14:19: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 13:14:19: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<25><STEAM_1:0:225761533><>
+L 07/31/2020 - 13:14:39: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "ответы в чат")
+L 07/31/2020 - 13:15:11: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text зимой и летом, одним цветом)
+L 07/31/2020 - 13:16:34: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text Друг зверей и друг детей Добрый доктор )
+L 07/31/2020 - 13:17:58: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text под деревом четыре льва один ушёл, осталось)
+L 07/31/2020 - 13:18:44: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text с пальмы вниз, на пальму снова, ловко прыгает...)
+L 07/31/2020 - 13:19:55: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "всё обнуляется, сорян, неуследил что вы в спеках")
+L 07/31/2020 - 13:20:23: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "с нового раунда")
+L 07/31/2020 - 13:21:26: [playercommands.smx] "frameocean<33><STEAM_1:0:452144146><>" slayed "frameocean<33><STEAM_1:0:452144146><>"
+L 07/31/2020 - 13:21:35: [basechat.smx] "frameocean<33><STEAM_1:0:452144146><>" triggered sm_say (text от тебя точно не умру)
+L 07/31/2020 - 13:22:05: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 13:22:23: [basechat.smx] "frameocean<33><STEAM_1:0:452144146><>" triggered sm_say (text 4)
+L 07/31/2020 - 13:22:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "69<31><STEAM_1:1:529910275><>" health to  10000
+L 07/31/2020 - 13:22:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:22:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "69<31><STEAM_1:1:529910275><>" health to  10000
+L 07/31/2020 - 13:22:25: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:22:25: [Godmode.smx] Console<0><Console><Console> enabled godmode on 69<31><STEAM_1:1:529910275><>
+L 07/31/2020 - 13:22:25: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<29><STEAM_1:1:523226173><>
+L 07/31/2020 - 13:22:26: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/2153275181/krevetka21.
+L 07/31/2020 - 13:23:28: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "каких камней не бвает в речке?")
+L 07/31/2020 - 13:23:52: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text каких камней не бывает в речке?)
+L 07/31/2020 - 13:24:34: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text ответ -сухих)
+L 07/31/2020 - 13:25:12: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text что не вместиться в самую большую кастрюлю?)
+L 07/31/2020 - 13:25:36: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text ответ в чат)
+L 07/31/2020 - 13:26:15: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "ответ_крышка это кастрюли")
+L 07/31/2020 - 13:26:42: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text завязать можно, а развязать нельзя?)
+L 07/31/2020 - 13:27:35: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "Верно")
+L 07/31/2020 - 13:28:04: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text я вода и по воде плаваю)
+L 07/31/2020 - 13:28:52: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "рик ближе всего(лёд-льдина)")
+L 07/31/2020 - 13:29:34: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text где впервые обнаружен картофель? )
+L 07/31/2020 - 13:30:01: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "нет")
+L 07/31/2020 - 13:30:08: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "нет")
+L 07/31/2020 - 13:30:16: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "верно")
+L 07/31/2020 - 13:30:41: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_msay (text сколько яиц можно съесть на тощак?)
+L 07/31/2020 - 13:30:57: [basechat.smx] "◥◣ ◢◤<10><STEAM_1:1:102112143><>" triggered sm_csay (text "69 верно")
+L 07/31/2020 - 13:31:53: [SM] Changed map to "workshop/2153275181/krevetka21"
+L 07/31/2020 - 13:31:55: -------- Mapchange to workshop/2153275181/krevetka21 --------
+L 07/31/2020 - 13:31:59: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 13:32:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:32:49: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:32:49: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 13:33:43: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:33:43: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 13:33:43: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<12><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 13:33:43: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 13:33:43: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<12><STEAM_1:1:541751560><>
+L 07/31/2020 - 13:33:43: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 13:34:10: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "победитель прошлого конкурса ВИКТОРИНА-69")
+L 07/31/2020 - 13:38:46: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "от двух игроков")
+L 07/31/2020 - 13:39:29: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "пропишите ws или knife")
+L 07/31/2020 - 13:40:01: [advadmin.smx] ◥◣ ◢◤: .sozidalnowhere equipped this: knife
+L 07/31/2020 - 13:40:32: [advadmin.smx] ◥◣ ◢◤: Detect'чик got this: knife
+L 07/31/2020 - 13:42:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "Minecraft<41><STEAM_1:1:558928266><>" health to  10000
+L 07/31/2020 - 13:42:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:42:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "Minecraft<41><STEAM_1:1:558928266><>" health to  10000
+L 07/31/2020 - 13:42:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:42:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on Minecraft<41><STEAM_1:1:558928266><>
+L 07/31/2020 - 13:42:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<29><STEAM_1:1:523226173><>
+L 07/31/2020 - 13:43:03: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "ножи есть у всеъ?")
+L 07/31/2020 - 13:44:27: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<40><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:44:27: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<40><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:44:27: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<40><STEAM_1:1:102112143><>
+L 07/31/2020 - 13:50:42: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 13:51:03: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/896007886/hide_and_seek_metro.
+L 07/31/2020 - 13:51:03: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "от 8 игроков")
+L 07/31/2020 - 13:53:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:53:37: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<29><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 13:53:37: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<29><STEAM_1:1:523226173><>
+L 07/31/2020 - 13:58:22: [SM] Changed map to "workshop/896007886/hide_and_seek_metro"
+L 07/31/2020 - 13:58:24: -------- Mapchange to workshop/896007886/hide_and_seek_metro --------
+L 07/31/2020 - 13:58:27: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 13:58:39: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<40><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:58:39: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<40><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 13:58:39: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<40><STEAM_1:1:102112143><>
+L 07/31/2020 - 13:58:53: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 13:58:53: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 13:58:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 14:02:36: [basechat.smx] "◥◣ ◢◤<40><STEAM_1:1:102112143><>" triggered sm_csay (text "щас приду")
+L 07/31/2020 - 14:05:07: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<42><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 14:05:07: [sm_sethealth.smx] "Console<0><Console><Console>" set "Detect'чик<42><STEAM_1:1:541751560><>" health to  10000
+L 07/31/2020 - 14:05:07: [Godmode.smx] Console<0><Console><Console> enabled godmode on Detect'чик<42><STEAM_1:1:541751560><>
+L 07/31/2020 - 14:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<45><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 14:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:08:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<45><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 14:08:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 14:08:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on Lalick<45><STEAM_1:1:544597127><>
+L 07/31/2020 - 14:10:00: [advadmin.smx] ◥◣ ◢◤: VanGoo_ respawned
+L 07/31/2020 - 14:10:15: [advadmin.smx] ◥◣ ◢◤: VanGoo_ teleported to ◥◣ ◢◤
+L 07/31/2020 - 14:12:56: [basechat.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" triggered sm_csay (text "8 игроков есть")
+L 07/31/2020 - 14:15:38: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 14:15:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "holera.<47><STEAM_1:1:464434998><>" health to  10000
+L 07/31/2020 - 14:15:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "VanGoo_<49><STEAM_1:1:419169541><>" health to  10000
+L 07/31/2020 - 14:15:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "holera.<47><STEAM_1:1:464434998><>" health to  10000
+L 07/31/2020 - 14:15:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "VanGoo_<49><STEAM_1:1:419169541><>" health to  10000
+L 07/31/2020 - 14:15:42: [Godmode.smx] Console<0><Console><Console> enabled godmode on holera.<47><STEAM_1:1:464434998><>
+L 07/31/2020 - 14:15:42: [Godmode.smx] Console<0><Console><Console> enabled godmode on VanGoo_<49><STEAM_1:1:419169541><>
+L 07/31/2020 - 14:15:49: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/907407830/me_map.
+L 07/31/2020 - 14:21:29: [playercommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" slapped "Sayron:D<48><STEAM_1:1:442687924><>" (damage "0")
+L 07/31/2020 - 14:21:44: [playercommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" slapped "holera.<47><STEAM_1:1:464434998><>" (damage "0")
+L 07/31/2020 - 14:21:50: [playercommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" slapped "VanGoo_<49><STEAM_1:1:419169541><>" (damage "0")
+L 07/31/2020 - 14:22:35: [basechat.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" triggered sm_csay (text "холера не слышно")
+L 07/31/2020 - 14:25:12: [SM] Changed map to "workshop/907407830/me_map"
+L 07/31/2020 - 14:25:14: -------- Mapchange to workshop/907407830/me_map --------
+L 07/31/2020 - 14:25:18: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 14:25:40: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 14:25:40: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 14:25:40: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 14:26:34: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 14:26:34: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 14:26:34: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 14:26:34: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 14:26:34: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 14:26:34: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 14:26:56: [advadmin.smx] ◥◣ ◢◤: Terrorists disarmed
+L 07/31/2020 - 14:27:09: [advadmin.smx] ◥◣ ◢◤: .sozidalnowhere got this: knife
+L 07/31/2020 - 14:27:15: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: knife
+L 07/31/2020 - 14:27:42: [advadmin.smx] ◥◣ ◢◤: VanGoo_ respawned
+L 07/31/2020 - 14:31:08: [advadmin.smx] ◥◣ ◢◤: .sozidalnowhere equipped this: knife
+L 07/31/2020 - 14:33:14: [advadmin.smx] ◥◣ ◢◤: VanGoo_ equipped this: knife
+L 07/31/2020 - 14:33:32: [playercommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" slayed "VanGoo_<49><STEAM_1:1:419169541><>"
+L 07/31/2020 - 14:35:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<45><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 14:35:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "holera.<47><STEAM_1:1:464434998><>" health to  10000
+L 07/31/2020 - 14:35:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<45><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 14:35:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "holera.<47><STEAM_1:1:464434998><>" health to  10000
+L 07/31/2020 - 14:35:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on Lalick<45><STEAM_1:1:544597127><>
+L 07/31/2020 - 14:35:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on holera.<47><STEAM_1:1:464434998><>
+L 07/31/2020 - 14:35:48: [advadmin.smx] ◥◣ ◢◤: HottoH equipped this: knife
+L 07/31/2020 - 14:35:51: [advadmin.smx] ◥◣ ◢◤: Rick1337 equipped this: knife
+L 07/31/2020 - 14:35:53: [advadmin.smx] ◥◣ ◢◤: Lalick equipped this: knife
+L 07/31/2020 - 14:35:55: [advadmin.smx] ◥◣ ◢◤: Lalick equipped this: knife
+L 07/31/2020 - 14:35:57: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: knife
+L 07/31/2020 - 14:36:00: [advadmin.smx] ◥◣ ◢◤: holera. equipped this: knife
+L 07/31/2020 - 14:36:06: [advadmin.smx] ◥◣ ◢◤: holera. equipped this: knife
+L 07/31/2020 - 14:36:10: [advadmin.smx] ◥◣ ◢◤: Sayron:D equipped this: knife
+L 07/31/2020 - 14:36:21: [advadmin.smx] ◥◣ ◢◤: VanGoo_ equipped this: knife
+L 07/31/2020 - 14:36:27: [advadmin.smx] ◥◣ ◢◤: Tlour equipped this: knife
+L 07/31/2020 - 14:40:12: [advadmin.smx] ◥◣ ◢◤: Rick1337 equipped this: knife
+L 07/31/2020 - 14:40:16: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ equipped this: knife
+L 07/31/2020 - 14:42:11: [basevotes.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" initiated a generic vote.
+L 07/31/2020 - 14:42:53: [basechat.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" triggered sm_csay (text "В след.раунде будет конкурс месть жертв")
+L 07/31/2020 - 14:43:34: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 14:43:48: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/824843565/seek_town_snowy.
+L 07/31/2020 - 14:44:30: [basechat.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" triggered sm_csay (text "суть конкурса (убить маньяка)")
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Sayron:D<48><STEAM_1:1:442687924><>" health to  10000
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "Sayron:D<48><STEAM_1:1:442687924><>" health to  10000
+L 07/31/2020 - 14:44:54: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 14:44:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 14:44:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on Sayron:D<48><STEAM_1:1:442687924><>
+L 07/31/2020 - 14:44:54: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 14:45:00: [advadmin.smx] ◥◣ ◢◤: Terrorists has been swapped
+L 07/31/2020 - 14:45:12: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ has been swapped
+L 07/31/2020 - 14:45:19: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 1
+L 07/31/2020 - 14:45:19: [Godmode.smx] ◥◣ ◢◤<46><STEAM_1:1:102112143><> enabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 14:45:22: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 20000
+L 07/31/2020 - 14:45:32: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 10000
+L 07/31/2020 - 14:45:38: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 0
+L 07/31/2020 - 14:45:38: [Godmode.smx] ◥◣ ◢◤<46><STEAM_1:1:102112143><> disabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 14:45:40: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 0
+L 07/31/2020 - 14:45:40: [Godmode.smx] ◥◣ ◢◤<46><STEAM_1:1:102112143><> disabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 14:45:56: [advadmin.smx] BIG CHUNGUS: CTs's godmode set to: 1
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on HottoH<50><STEAM_1:0:201425212><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on Lalick<45><STEAM_1:1:544597127><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on holera.<47><STEAM_1:1:464434998><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on Sayron:D<48><STEAM_1:1:442687924><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on VanGoo_<49><STEAM_1:1:419169541><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on Tlour<51><STEAM_1:0:550705992><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 14:45:56: [Godmode.smx] BIG CHUNGUS<53><STEAM_1:1:167184306><> enabled godmode on BIG CHUNGUS<53><STEAM_1:1:167184306><>
+L 07/31/2020 - 14:46:02: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ teleported to Rick1337
+L 07/31/2020 - 14:46:20: [funcommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" set a beacon on "◥◣ ◢◤<46><STEAM_1:1:102112143><>"
+L 07/31/2020 - 14:46:54: [advadmin.smx] BIG CHUNGUS: all players teleported to BIG CHUNGUS
+L 07/31/2020 - 14:47:37: [advadmin.smx] BIG CHUNGUS: all players teleported to BIG CHUNGUS
+L 07/31/2020 - 14:48:15: [advadmin.smx] BIG CHUNGUS: all players teleported to BIG CHUNGUS
+L 07/31/2020 - 14:48:38: [advadmin.smx] BIG CHUNGUS: all players's speed set to: 2
+L 07/31/2020 - 14:48:59: [advadmin.smx] BIG CHUNGUS: all players's speed set to: 1
+L 07/31/2020 - 14:49:08: [advadmin.smx] BIG CHUNGUS: all players teleported to BIG CHUNGUS
+L 07/31/2020 - 14:49:16: [funcommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" set a beacon on "Rick1337<44><STEAM_1:0:225761533><>"
+L 07/31/2020 - 14:49:20: [funcommands.smx] "◥◣ ◢◤<46><STEAM_1:1:102112143><>" removed a beacon on "Rick1337<44><STEAM_1:0:225761533><>"
+L 07/31/2020 - 14:49:45: [SM] Changed map to "workshop/824843565/seek_town_snowy"
+L 07/31/2020 - 14:49:46: -------- Mapchange to workshop/824843565/seek_town_snowy --------
+L 07/31/2020 - 14:49:51: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 14:59:06: [advadmin.smx] BIG CHUNGUS: BIG CHUNGUS's deaths stat modified to: 0
+L 07/31/2020 - 14:59:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:59:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<53><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 14:59:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 14:59:13: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<53><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 14:59:13: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 14:59:13: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<53><STEAM_1:1:167184306><>
+L 07/31/2020 - 15:04:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:04:44: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:04:44: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<46><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:04:44: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:04:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<46><STEAM_1:1:102112143><>
+L 07/31/2020 - 15:04:44: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 15:06:58: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 15:07:18: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/748901104/home.
+L 07/31/2020 - 15:14:19: [SM] Changed map to "workshop/748901104/home"
+L 07/31/2020 - 15:14:21: -------- Mapchange to workshop/748901104/home --------
+L 07/31/2020 - 15:14:26: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 15:14:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 15:14:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 15:14:46: [Godmode.smx] Console<0><Console><Console> enabled godmode on Lalick<54><STEAM_1:1:544597127><>
+L 07/31/2020 - 15:15:40: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:15:40: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:15:40: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 15:20:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 15:20:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:20:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 15:20:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:20:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 15:20:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<59><STEAM_1:1:102112143><>
+L 07/31/2020 - 15:25:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<58><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 15:25:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 15:25:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "BIG CHUNGUS<58><STEAM_1:1:167184306><>" health to  10000
+L 07/31/2020 - 15:25:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 15:25:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on BIG CHUNGUS<58><STEAM_1:1:167184306><>
+L 07/31/2020 - 15:25:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 15:31:05: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:31:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:31:05: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:31:05: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:31:05: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 15:31:05: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 15:32:40: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 15:33:01: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/913095422/horror_house_v2.
+L 07/31/2020 - 15:33:46: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: healthshot
+L 07/31/2020 - 15:35:04: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: healthshot
+L 07/31/2020 - 15:40:30: [SM] Changed map to "workshop/913095422/horror_house_v2"
+L 07/31/2020 - 15:40:32: -------- Mapchange to workshop/913095422/horror_house_v2 --------
+L 07/31/2020 - 15:40:36: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 15:40:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "MitJ<64><STEAM_1:1:444078421><>" health to  10000
+L 07/31/2020 - 15:40:53: [sm_sethealth.smx] "Console<0><Console><Console>" set "MitJ<64><STEAM_1:1:444078421><>" health to  10000
+L 07/31/2020 - 15:40:53: [Godmode.smx] Console<0><Console><Console> enabled godmode on MitJ<64><STEAM_1:1:444078421><>
+L 07/31/2020 - 15:41:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:41:19: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 15:41:19: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 15:41:54: [advadmin.smx] ◥◣ ◢◤: Restarting the round.
+L 07/31/2020 - 15:41:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 15:41:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "(_DUST_)<63><STEAM_1:0:509120166><>" health to  10000
+L 07/31/2020 - 15:41:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 15:41:56: [sm_sethealth.smx] "Console<0><Console><Console>" set "(_DUST_)<63><STEAM_1:0:509120166><>" health to  10000
+L 07/31/2020 - 15:41:56: [Godmode.smx] Console<0><Console><Console> enabled godmode on Lalick<54><STEAM_1:1:544597127><>
+L 07/31/2020 - 15:41:56: [Godmode.smx] Console<0><Console><Console> enabled godmode on (_DUST_)<63><STEAM_1:0:509120166><>
+L 07/31/2020 - 15:42:46: [advadmin.smx] ◥◣ ◢◤: Ystrub1 respawned
+L 07/31/2020 - 15:51:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:51:06: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:51:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 15:51:06: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 15:51:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<59><STEAM_1:1:102112143><>
+L 07/31/2020 - 15:51:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 15:55:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 15:55:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 15:55:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<44><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 15:55:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 15:55:35: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<44><STEAM_1:0:225761533><>
+L 07/31/2020 - 15:55:35: [Godmode.smx] Console<0><Console><Console> enabled godmode on Букаке<61><STEAM_1:1:540765941><>
+L 07/31/2020 - 15:57:52: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 15:58:13: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/695504443/seek_office.
+L 07/31/2020 - 16:00:44: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text )
+L 07/31/2020 - 16:00:45: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text )
+L 07/31/2020 - 16:00:47: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text )
+L 07/31/2020 - 16:01:18: [SM] Changed map to "workshop/695504443/seek_office"
+L 07/31/2020 - 16:01:20: -------- Mapchange to workshop/695504443/seek_office --------
+L 07/31/2020 - 16:01:24: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 16:01:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:01:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:01:35: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<59><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:02:21: [basechat.smx] "◥◣ ◢◤<59><STEAM_1:1:102112143><>" triggered sm_csay (text "если хотите играть за М, прописывайте !maniac)
+L 07/31/2020 - 16:02:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:02:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<66><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 16:02:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:02:29: [sm_sethealth.smx] "Console<0><Console><Console>" set "DeadТехнарь<66><STEAM_1:1:124378502><>" health to  10000
+L 07/31/2020 - 16:02:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<59><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:02:29: [Godmode.smx] Console<0><Console><Console> enabled godmode on DeadТехнарь<66><STEAM_1:1:124378502><>
+L 07/31/2020 - 16:02:33: [basechat.smx] "◥◣ ◢◤<59><STEAM_1:1:102112143><>" triggered sm_csay (text "если хотите играть за М, прописывайте !maniac)
+L 07/31/2020 - 16:02:55: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ got this: taser
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:06:20: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 16:06:20: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 16:06:20: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 16:06:20: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 16:10:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 16:10:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<68><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 16:10:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "Lalick<54><STEAM_1:1:544597127><>" health to  10000
+L 07/31/2020 - 16:10:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<68><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 16:10:33: [Godmode.smx] Console<0><Console><Console> enabled godmode on Lalick<54><STEAM_1:1:544597127><>
+L 07/31/2020 - 16:10:33: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<68><STEAM_1:0:556959071><>
+L 07/31/2020 - 16:19:07: [mapchooser.smx] Starting map vote because outside request
+L 07/31/2020 - 16:19:07: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 16:19:13: [basechat.smx] "◥◣ ◢◤<59><STEAM_1:1:102112143><>" triggered sm_csay (text "без мата")
+L 07/31/2020 - 16:19:28: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/1671994990/seek_town_update.
+L 07/31/2020 - 16:19:35: [SM] Changed map to "workshop/1671994990/seek_town_update"
+L 07/31/2020 - 16:19:37: -------- Mapchange to workshop/1671994990/seek_town_update --------
+L 07/31/2020 - 16:19:41: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 16:19:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<68><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 16:19:55: [sm_sethealth.smx] "Console<0><Console><Console>" set "Wins wars<68><STEAM_1:0:556959071><>" health to  10000
+L 07/31/2020 - 16:19:55: [Godmode.smx] Console<0><Console><Console> enabled godmode on Wins wars<68><STEAM_1:0:556959071><>
+L 07/31/2020 - 16:20:46: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text restart go)
+L 07/31/2020 - 16:21:01: [advadmin.smx] ◥◣ ◢◤: Restarting the round.
+L 07/31/2020 - 16:21:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<65><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 16:21:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 16:21:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<65><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 16:21:02: [sm_sethealth.smx] "Console<0><Console><Console>" set "MinGo.SkinSwipe<52><STEAM_1:1:519523337><>" health to  10000
+L 07/31/2020 - 16:21:02: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<65><STEAM_1:1:523226173><>
+L 07/31/2020 - 16:21:02: [Godmode.smx] Console<0><Console><Console> enabled godmode on MinGo.SkinSwipe<52><STEAM_1:1:519523337><>
+L 07/31/2020 - 16:29:15: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text ну вот что это)
+L 07/31/2020 - 16:29:25: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text почему по нему не идет стоп гранатой )
+L 07/31/2020 - 16:29:28: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text как раньше)
+L 07/31/2020 - 16:29:38: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text щас мансить не получится)
+L 07/31/2020 - 16:30:04: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text я манал)
+L 07/31/2020 - 16:30:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:30:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:30:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<59><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:30:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:30:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<59><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:30:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 16:36:55: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 16:37:16: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/711206196/seek_bank_night.
+L 07/31/2020 - 16:38:49: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text &quot)
+L 07/31/2020 - 16:39:08: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text &quot)
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 16:39:33: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:39:33: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 16:39:33: [Godmode.smx] Console<0><Console><Console> enabled godmode on БАНАНЧИК<73><STEAM_1:0:524529953><>
+L 07/31/2020 - 16:39:33: [Godmode.smx] Console<0><Console><Console> enabled godmode on 1orestforest1<76><STEAM_1:1:558400801><>
+L 07/31/2020 - 16:39:35: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text Glazki check telegu)
+L 07/31/2020 - 16:39:41: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text Glazki check telegu)
+L 07/31/2020 - 16:39:43: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text Glazki check telegu)
+L 07/31/2020 - 16:39:44: [basechat.smx] "Console<0><Console><Console>" triggered sm_csay (text Glazki check telegu)
+L 07/31/2020 - 16:42:00: [basecommands.smx] "Console<0><Console><Console>" kicked "◥◣ ◢◤<59><STEAM_1:1:102112143><>" (reason "")
+L 07/31/2020 - 16:49:08: [SM] Changed map to "workshop/711206196/seek_bank_night"
+L 07/31/2020 - 16:49:10: -------- Mapchange to workshop/711206196/seek_bank_night --------
+L 07/31/2020 - 16:49:15: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 16:49:23: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:49:23: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:49:23: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<74><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 16:50:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<74><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 16:50:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:50:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 16:50:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<74><STEAM_1:0:225761533><>
+L 07/31/2020 - 16:50:18: [basevotes.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" initiated a generic vote.
+L 07/31/2020 - 16:51:08: [basevotes.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" initiated a generic vote.
+L 07/31/2020 - 16:52:15: [basechat.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" triggered sm_csay (text "!tp в чат и чекайте скин")
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:53:06: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:53:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on Букаке<61><STEAM_1:1:540765941><>
+L 07/31/2020 - 16:53:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on 1orestforest1<76><STEAM_1:1:558400801><>
+L 07/31/2020 - 16:53:06: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<78><STEAM_1:1:243409405><>
+L 07/31/2020 - 16:53:12: [advadmin.smx] ◥◣ ◢◤: Terrorists has been swapped
+L 07/31/2020 - 16:53:40: [advadmin.smx] ◥◣ ◢◤: all players has been swapped
+L 07/31/2020 - 16:53:51: [advadmin.smx] ◥◣ ◢◤: all players has been swapped
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<65><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "Ystrub1<65><STEAM_1:1:523226173><>" health to  10000
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:54:01: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:54:01: [Godmode.smx] Console<0><Console><Console> enabled godmode on Ystrub1<65><STEAM_1:1:523226173><>
+L 07/31/2020 - 16:54:01: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 16:54:01: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<78><STEAM_1:1:243409405><>
+L 07/31/2020 - 16:54:08: [advadmin.smx] ◥◣ ◢◤: Terrorists has been swapped
+L 07/31/2020 - 16:54:50: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ has been swapped
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "BANAN<80><STEAM_1:1:244529997><>" health to  10000
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "BANAN<80><STEAM_1:1:244529997><>" health to  10000
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 16:55:16: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:55:16: [Godmode.smx] Console<0><Console><Console> enabled godmode on BANAN<80><STEAM_1:1:244529997><>
+L 07/31/2020 - 16:55:16: [Godmode.smx] Console<0><Console><Console> enabled godmode on 1orestforest1<76><STEAM_1:1:558400801><>
+L 07/31/2020 - 16:55:16: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<78><STEAM_1:1:243409405><>
+L 07/31/2020 - 16:55:23: [advadmin.smx] ◥◣ ◢◤: Terrorists has been swapped
+L 07/31/2020 - 16:55:25: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤ has been swapped
+L 07/31/2020 - 16:55:36: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 1
+L 07/31/2020 - 16:55:36: [Godmode.smx] ◥◣ ◢◤<79><STEAM_1:1:102112143><> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:55:49: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 20000
+L 07/31/2020 - 16:55:53: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s health set to: 10000
+L 07/31/2020 - 16:56:08: [funcommands.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" set a beacon on "◥◣ ◢◤<79><STEAM_1:1:102112143><>"
+L 07/31/2020 - 16:56:29: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 0
+L 07/31/2020 - 16:56:29: [Godmode.smx] ◥◣ ◢◤<79><STEAM_1:1:102112143><> disabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 16:58:00: [advadmin.smx] ◥◣ ◢◤: The ball is pumped up, lets play.
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<74><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<28><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "Rick1337<74><STEAM_1:0:225761533><>" health to  10000
+L 07/31/2020 - 16:58:17: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<78><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 16:58:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<28><STEAM_1:0:32255477><>
+L 07/31/2020 - 16:58:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on Rick1337<74><STEAM_1:0:225761533><>
+L 07/31/2020 - 16:58:17: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<78><STEAM_1:1:243409405><>
+L 07/31/2020 - 16:59:37: [basechat.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" triggered sm_csay (text "Hardecki" - 2123 in 37 hits")
+L 07/31/2020 - 16:59:52: [basechat.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" triggered sm_csay (text "Hardecki" победитель ")
+L 07/31/2020 - 17:00:35: [advadmin.smx] ◥◣ ◢◤: ◥◣ ◢◤'s godmode set to: 1
+L 07/31/2020 - 17:00:35: [Godmode.smx] ◥◣ ◢◤<79><STEAM_1:1:102112143><> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 17:01:28: [basechat.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" triggered sm_csay (text "Hardecki" - 2123 in 37 hits")
+L 07/31/2020 - 17:04:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:04:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:04:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:04:58: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:04:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on БАНАНЧИК<73><STEAM_1:0:524529953><>
+L 07/31/2020 - 17:04:58: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 17:07:16: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 17:07:37: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/2104917202/krevetka18.
+L 07/31/2020 - 17:13:02: [rockthevote.smx] RTV changing map manually
+L 07/31/2020 - 17:13:02: [SM] Changed map to "workshop/2104917202/krevetka18"
+L 07/31/2020 - 17:13:04: -------- Mapchange to workshop/2104917202/krevetka18 --------
+L 07/31/2020 - 17:13:09: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 17:13:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 17:13:41: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 17:13:41: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 17:14:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 17:14:35: [sm_sethealth.smx] "Console<0><Console><Console>" set "◥◣ ◢◤<79><STEAM_1:1:102112143><>" health to  10000
+L 07/31/2020 - 17:14:35: [Godmode.smx] Console<0><Console><Console> enabled godmode on ◥◣ ◢◤<79><STEAM_1:1:102112143><>
+L 07/31/2020 - 17:14:41: [basechat.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" triggered sm_csay (text "!tp-для просмотря скина")
+L 07/31/2020 - 17:15:34: [advadmin.smx] ◥◣ ◢◤: ★Hardecki respawned
+L 07/31/2020 - 17:15:49: [advadmin.smx] ◥◣ ◢◤: БАНАНЧИК respawned
+L 07/31/2020 - 17:16:34: [advadmin.smx] ◥◣ ◢◤: ★Hardecki teleported to ◥◣ ◢◤
+L 07/31/2020 - 17:21:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:21:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:21:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:21:46: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:21:46: [Godmode.smx] Console<0><Console><Console> enabled godmode on БАНАНЧИК<73><STEAM_1:0:524529953><>
+L 07/31/2020 - 17:21:46: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 17:26:44: [playercommands.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" slapped "Ystrub1<65><STEAM_1:1:523226173><>" (damage "0")
+L 07/31/2020 - 17:26:48: [playercommands.smx] "◥◣ ◢◤<79><STEAM_1:1:102112143><>" slapped "Ystrub1<65><STEAM_1:1:523226173><>" (damage "0")
+L 07/31/2020 - 17:27:03: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<84><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 17:27:03: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 17:27:03: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<84><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 17:27:03: [sm_sethealth.smx] "Console<0><Console><Console>" set "1orestforest1<76><STEAM_1:1:558400801><>" health to  10000
+L 07/31/2020 - 17:27:03: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<84><STEAM_1:0:32255477><>
+L 07/31/2020 - 17:27:03: [Godmode.smx] Console<0><Console><Console> enabled godmode on 1orestforest1<76><STEAM_1:1:558400801><>
+L 07/31/2020 - 17:27:20: [advadmin.smx] ◥◣ ◢◤: 1orestforest1 respawned
+L 07/31/2020 - 17:27:42: [advadmin.smx] ◥◣ ◢◤: 1orestforest1 respawned
+L 07/31/2020 - 17:27:57: [advadmin.smx] ◥◣ ◢◤: 1orestforest1 teleported to .sozidalnowhere
+L 07/31/2020 - 17:31:34: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 17:31:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<87><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 17:31:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 17:31:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<87><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 17:31:48: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 17:31:48: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<87><STEAM_1:1:243409405><>
+L 07/31/2020 - 17:31:48: [Godmode.smx] Console<0><Console><Console> enabled godmode on Букаке<61><STEAM_1:1:540765941><>
+L 07/31/2020 - 17:31:55: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/2006229118/seek_lakehouse_2020.
+L 07/31/2020 - 17:32:57: [rockthevote.smx] RTV changing map manually
+L 07/31/2020 - 17:32:57: [SM] Changed map to "workshop/2006229118/seek_lakehouse_2020"
+L 07/31/2020 - 17:32:59: -------- Mapchange to workshop/2006229118/seek_lakehouse_2020 --------
+L 07/31/2020 - 17:33:04: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 17:33:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:33:42: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:33:42: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 17:34:58: [Keys_Core.smx] DELETE FROM `table_keys` WHERE `key_name` = 'qYAzyQQ5PsBXSAmV2oP3';
+L 07/31/2020 - 17:35:07: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<84><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 17:35:07: [sm_sethealth.smx] "Console<0><Console><Console>" set ".sozidalnowhere<84><STEAM_1:0:32255477><>" health to  10000
+L 07/31/2020 - 17:35:07: [Godmode.smx] Console<0><Console><Console> enabled godmode on .sozidalnowhere<84><STEAM_1:0:32255477><>
+L 07/31/2020 - 17:35:51: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text 100 )
+L 07/31/2020 - 17:35:59: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text 100 руб)
+L 07/31/2020 - 17:36:05: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text 100 руб стоило)
+L 07/31/2020 - 17:36:11: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text упал)
+L 07/31/2020 - 17:36:29: [basechat.smx] "живной пивотик<60><STEAM_1:1:223319400><>" triggered sm_chat (text можно я турбину самолета включу?)
+L 07/31/2020 - 17:40:46: [basechat.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" triggered sm_csay (text "без оскорблений")
+L 07/31/2020 - 17:41:53: [basechat.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" triggered sm_csay (text "из-за вип теста вроде")
+L 07/31/2020 - 17:42:56: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" set a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:03: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" removed a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:10: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" set a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:13: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" removed a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:15: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" set a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:17: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" removed a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:20: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" set a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:23: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" removed a beacon on "БАНАНЧИК<73><STEAM_1:0:524529953><>"
+L 07/31/2020 - 17:43:45: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" ignited ".sozidalnowhere<84><STEAM_1:0:32255477><>" (seconds "20.000000")
+L 07/31/2020 - 17:44:04: [funcommands.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" ignited ".sozidalnowhere<84><STEAM_1:0:32255477><>" (seconds "20.000000")
+L 07/31/2020 - 17:44:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<87><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 17:44:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:44:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "★Hardecki<87><STEAM_1:1:243409405><>" health to  10000
+L 07/31/2020 - 17:44:12: [sm_sethealth.smx] "Console<0><Console><Console>" set "БАНАНЧИК<73><STEAM_1:0:524529953><>" health to  10000
+L 07/31/2020 - 17:44:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on ★Hardecki<87><STEAM_1:1:243409405><>
+L 07/31/2020 - 17:44:12: [Godmode.smx] Console<0><Console><Console> enabled godmode on БАНАНЧИК<73><STEAM_1:0:524529953><>
+L 07/31/2020 - 17:46:46: [basechat.smx] "◥◣ ◢◤<88><STEAM_1:1:102112143><>" triggered sm_csay (text "vk.com/rd.csgo-за помощью обращаться сюда")
+L 07/31/2020 - 17:50:42: [mapchooser.smx] Voting for next map has started.
+L 07/31/2020 - 17:50:57: [mapchooser.smx] Voting for next map has finished. Nextmap: workshop/899328634/hide_zombieshelter_final.
+L 07/31/2020 - 17:53:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:53:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 17:53:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "живной пивотик<60><STEAM_1:1:223319400><>" health to  10000
+L 07/31/2020 - 17:53:21: [sm_sethealth.smx] "Console<0><Console><Console>" set "Букаке<61><STEAM_1:1:540765941><>" health to  10000
+L 07/31/2020 - 17:53:21: [Godmode.smx] Console<0><Console><Console> enabled godmode on живной пивотик<60><STEAM_1:1:223319400><>
+L 07/31/2020 - 17:53:21: [Godmode.smx] Console<0><Console><Console> enabled godmode on Букаке<61><STEAM_1:1:540765941><>
+L 07/31/2020 - 17:57:30: [rockthevote.smx] RTV changing map manually
+L 07/31/2020 - 17:57:30: [SM] Changed map to "workshop/899328634/hide_zombieshelter_final"
+L 07/31/2020 - 17:57:31: -------- Mapchange to workshop/899328634/hide_zombieshelter_final --------
+L 07/31/2020 - 17:57:36: [weapons.smx] Inactive players' data has been deleted
+L 07/31/2020 - 17:57:51: [sm_sethealth.smx] "Console<0><Console><Console>" set "LeGo_GlaZ<90><STEAM_1:0:431905479><>" health to  10000
+L 07/31/2020 - 17:57:51: [sm_sethealth.smx] "Console<0><Console><Console>" set "LeGo_GlaZ<90><STEAM_1:0:431905479><>" health to  10000
+L 07/31/2020 - 17:57:51: [Godmode.smx] Console<0><Console><Console> enabled godmode on LeGo_GlaZ<90><STEAM_1:0:431905479><>
