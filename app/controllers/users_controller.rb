@@ -15,9 +15,17 @@ class UsersController < ApplicationController
       user_steam_data['steamID'] = get_steam_ID(steamId64.to_i)
       if User.find_by(steamID: user_steam_data['steamID'])
          update_user!(user_steam_data)
+         user_steam_data['m_type'] = 'none' unless @user.moder?
+
+         if @user.moder?
+            token = @user.generate_auth_token!
+            user_steam_data['auth_token'] = token
+            user_steam_data['m_type'] = Moder.find_by(id: @user.id)&.m_type || 'no'
+         end
       else
          register_user!(user_steam_data)
       end
+
       redirect_to("#{$frontend}?steam_data=#{user_steam_data.to_json}")
    end
 
@@ -35,26 +43,27 @@ class UsersController < ApplicationController
    end
 
    def register_user!(user_steam_data)
-      User.create!(
-         nickname: user_steam_data['personaname'],
-         steamID: user_steam_data['steamID'],
-         steamID64: user_steam_data['steamid'],
-         profile_url: user_steam_data['profileurl'],
-         avatar_url: user_steam_data['avatarfull'],
-         email: Faker::Internet.email,
-         password: Faker::Internet.password,
-         role: 0
-      )
+      @user = User.create!(
+                  nickname: user_steam_data['personaname'],
+                  steamID: user_steam_data['steamID'],
+                  steamID64: user_steam_data['steamid'],
+                  profile_url: user_steam_data['profileurl'],
+                  avatar_url: user_steam_data['avatarfull'],
+                  email: Faker::Internet.email,
+                  password: Faker::Internet.password,
+                  role: 0
+               )
    end
 
    def update_user!(user_steam_data)
-      User.update(
+      User.find_by(steamID: user_steam_data['steamID']).update(
          nickname: user_steam_data['personaname'],
          steamID: user_steam_data['steamID'],
          steamID64: user_steam_data['steamid'],
          profile_url: user_steam_data['profileurl'],
          avatar_url: user_steam_data['avatarfull']
       )
+      @user = User.find_by(steamID: user_steam_data['steamID'])
    end
 end
  

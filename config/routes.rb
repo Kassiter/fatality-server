@@ -5,11 +5,14 @@ Rails.application.routes.draw do
   resources :previlegies_keys
   resources :personal_items
   devise_for :users
-  resources :personal_features
+  resources :personal_features 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :privilieges_features
   resources :privilieges
   get '/privilieges_all', to: "privilieges#get_privilieges"
+  get '/contest_keys/index_keys', to: "contest_keys#index_keys"
+  post '/contest_keys/submit_report', to: "contest_keys#submit_report"
+  post '/contest_keys/generate_keys', to: "contest_keys#generate_keys"
   get '/users/vip_data', to: "vip_users#show_vip"
   get 'users/refresh', to: "users#refresh_user_data"
   post 'contests/take_part', to: "contests#take_part"

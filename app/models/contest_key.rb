@@ -1,0 +1,2 @@
+class ContestKey < ApplicationRecord
+end

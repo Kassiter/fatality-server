@@ -10,10 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_27_095524) do
+ActiveRecord::Schema.define(version: 2020_07_31_105500) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "contest_keys", force: :cascade do |t|
+    t.string "key", null: false
+    t.string "report", default: ""
+    t.boolean "approved", default: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.date "on_date", null: false
+  end
 
   create_table "contests", force: :cascade do |t|
     t.string "title", null: false
@@ -129,6 +138,9 @@ ActiveRecord::Schema.define(version: 2020_07_27_095524) do
     t.string "profile_url", default: ""
     t.string "steamID64", default: ""
     t.string "avatar_url", default: ""
+    t.integer "m_type", default: 3
+    t.string "auth_token", default: ""
+    t.string "key_phrase", default: ""
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

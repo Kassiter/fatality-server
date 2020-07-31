@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_27_095524) do
+ActiveRecord::Schema.define(version: 2020_07_31_105500) do
+
+  create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "key", null: false
+    t.string "report", default: ""
+    t.boolean "approved", default: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.date "on_date", null: false
+  end
 
   create_table "contests", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title", null: false
@@ -202,6 +211,9 @@ ActiveRecord::Schema.define(version: 2020_07_27_095524) do
     t.string "profile_url", default: ""
     t.string "steamID64", default: ""
     t.string "avatar_url", default: ""
+    t.integer "m_type", default: 3
+    t.string "auth_token", default: ""
+    t.string "key_phrase", default: ""
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
@@ -270,6 +282,332 @@ ActiveRecord::Schema.define(version: 2020_07_27_095524) do
     t.string "favorite5", limit: 64, default: "none", null: false
     t.string "favorite6", limit: 64, default: "none", null: false
     t.string "favorite7", limit: 64, default: "none", null: false
+  end
+
+  create_table "weapons", primary_key: "steamid", id: :string, limit: 32, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
+    t.integer "knife", default: 0, null: false
+    t.integer "awp", default: 0, null: false
+    t.decimal "awp_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "awp_trak", default: 0, null: false
+    t.integer "awp_trak_count", default: 0, null: false
+    t.string "awp_tag", limit: 256, default: "", null: false
+    t.integer "awp_seed", default: -1, null: false
+    t.integer "ak47", default: 0, null: false
+    t.decimal "ak47_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "ak47_trak", default: 0, null: false
+    t.integer "ak47_trak_count", default: 0, null: false
+    t.string "ak47_tag", limit: 256, default: "", null: false
+    t.integer "ak47_seed", default: -1, null: false
+    t.integer "m4a1", default: 0, null: false
+    t.decimal "m4a1_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "m4a1_trak", default: 0, null: false
+    t.integer "m4a1_trak_count", default: 0, null: false
+    t.string "m4a1_tag", limit: 256, default: "", null: false
+    t.integer "m4a1_seed", default: -1, null: false
+    t.integer "m4a1_silencer", default: 0, null: false
+    t.decimal "m4a1_silencer_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "m4a1_silencer_trak", default: 0, null: false
+    t.integer "m4a1_silencer_trak_count", default: 0, null: false
+    t.string "m4a1_silencer_tag", limit: 256, default: "", null: false
+    t.integer "m4a1_silencer_seed", default: -1, null: false
+    t.integer "deagle", default: 0, null: false
+    t.decimal "deagle_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "deagle_trak", default: 0, null: false
+    t.integer "deagle_trak_count", default: 0, null: false
+    t.string "deagle_tag", limit: 256, default: "", null: false
+    t.integer "deagle_seed", default: -1, null: false
+    t.integer "usp_silencer", default: 0, null: false
+    t.decimal "usp_silencer_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "usp_silencer_trak", default: 0, null: false
+    t.integer "usp_silencer_trak_count", default: 0, null: false
+    t.string "usp_silencer_tag", limit: 256, default: "", null: false
+    t.integer "usp_silencer_seed", default: -1, null: false
+    t.integer "hkp2000", default: 0, null: false
+    t.decimal "hkp2000_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "hkp2000_trak", default: 0, null: false
+    t.integer "hkp2000_trak_count", default: 0, null: false
+    t.string "hkp2000_tag", limit: 256, default: "", null: false
+    t.integer "hkp2000_seed", default: -1, null: false
+    t.integer "glock", default: 0, null: false
+    t.decimal "glock_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "glock_trak", default: 0, null: false
+    t.integer "glock_trak_count", default: 0, null: false
+    t.string "glock_tag", limit: 256, default: "", null: false
+    t.integer "glock_seed", default: -1, null: false
+    t.integer "elite", default: 0, null: false
+    t.decimal "elite_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "elite_trak", default: 0, null: false
+    t.integer "elite_trak_count", default: 0, null: false
+    t.string "elite_tag", limit: 256, default: "", null: false
+    t.integer "elite_seed", default: -1, null: false
+    t.integer "p250", default: 0, null: false
+    t.decimal "p250_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "p250_trak", default: 0, null: false
+    t.integer "p250_trak_count", default: 0, null: false
+    t.string "p250_tag", limit: 256, default: "", null: false
+    t.integer "p250_seed", default: -1, null: false
+    t.integer "cz75a", default: 0, null: false
+    t.decimal "cz75a_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "cz75a_trak", default: 0, null: false
+    t.integer "cz75a_trak_count", default: 0, null: false
+    t.string "cz75a_tag", limit: 256, default: "", null: false
+    t.integer "cz75a_seed", default: -1, null: false
+    t.integer "fiveseven", default: 0, null: false
+    t.decimal "fiveseven_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "fiveseven_trak", default: 0, null: false
+    t.integer "fiveseven_trak_count", default: 0, null: false
+    t.string "fiveseven_tag", limit: 256, default: "", null: false
+    t.integer "fiveseven_seed", default: -1, null: false
+    t.integer "tec9", default: 0, null: false
+    t.decimal "tec9_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "tec9_trak", default: 0, null: false
+    t.integer "tec9_trak_count", default: 0, null: false
+    t.string "tec9_tag", limit: 256, default: "", null: false
+    t.integer "tec9_seed", default: -1, null: false
+    t.integer "revolver", default: 0, null: false
+    t.decimal "revolver_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "revolver_trak", default: 0, null: false
+    t.integer "revolver_trak_count", default: 0, null: false
+    t.string "revolver_tag", limit: 256, default: "", null: false
+    t.integer "revolver_seed", default: -1, null: false
+    t.integer "nova", default: 0, null: false
+    t.decimal "nova_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "nova_trak", default: 0, null: false
+    t.integer "nova_trak_count", default: 0, null: false
+    t.string "nova_tag", limit: 256, default: "", null: false
+    t.integer "nova_seed", default: -1, null: false
+    t.integer "xm1014", default: 0, null: false
+    t.decimal "xm1014_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "xm1014_trak", default: 0, null: false
+    t.integer "xm1014_trak_count", default: 0, null: false
+    t.string "xm1014_tag", limit: 256, default: "", null: false
+    t.integer "xm1014_seed", default: -1, null: false
+    t.integer "mag7", default: 0, null: false
+    t.decimal "mag7_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "mag7_trak", default: 0, null: false
+    t.integer "mag7_trak_count", default: 0, null: false
+    t.string "mag7_tag", limit: 256, default: "", null: false
+    t.integer "mag7_seed", default: -1, null: false
+    t.integer "sawedoff", default: 0, null: false
+    t.decimal "sawedoff_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "sawedoff_trak", default: 0, null: false
+    t.integer "sawedoff_trak_count", default: 0, null: false
+    t.string "sawedoff_tag", limit: 256, default: "", null: false
+    t.integer "sawedoff_seed", default: -1, null: false
+    t.integer "m249", default: 0, null: false
+    t.decimal "m249_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "m249_trak", default: 0, null: false
+    t.integer "m249_trak_count", default: 0, null: false
+    t.string "m249_tag", limit: 256, default: "", null: false
+    t.integer "m249_seed", default: -1, null: false
+    t.integer "negev", default: 0, null: false
+    t.decimal "negev_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "negev_trak", default: 0, null: false
+    t.integer "negev_trak_count", default: 0, null: false
+    t.string "negev_tag", limit: 256, default: "", null: false
+    t.integer "negev_seed", default: -1, null: false
+    t.integer "mp9", default: 0, null: false
+    t.decimal "mp9_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "mp9_trak", default: 0, null: false
+    t.integer "mp9_trak_count", default: 0, null: false
+    t.string "mp9_tag", limit: 256, default: "", null: false
+    t.integer "mp9_seed", default: -1, null: false
+    t.integer "mac10", default: 0, null: false
+    t.decimal "mac10_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "mac10_trak", default: 0, null: false
+    t.integer "mac10_trak_count", default: 0, null: false
+    t.string "mac10_tag", limit: 256, default: "", null: false
+    t.integer "mac10_seed", default: -1, null: false
+    t.integer "mp7", default: 0, null: false
+    t.decimal "mp7_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "mp7_trak", default: 0, null: false
+    t.integer "mp7_trak_count", default: 0, null: false
+    t.string "mp7_tag", limit: 256, default: "", null: false
+    t.integer "mp7_seed", default: -1, null: false
+    t.integer "ump45", default: 0, null: false
+    t.decimal "ump45_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "ump45_trak", default: 0, null: false
+    t.integer "ump45_trak_count", default: 0, null: false
+    t.string "ump45_tag", limit: 256, default: "", null: false
+    t.integer "ump45_seed", default: -1, null: false
+    t.integer "p90", default: 0, null: false
+    t.decimal "p90_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "p90_trak", default: 0, null: false
+    t.integer "p90_trak_count", default: 0, null: false
+    t.string "p90_tag", limit: 256, default: "", null: false
+    t.integer "p90_seed", default: -1, null: false
+    t.integer "bizon", default: 0, null: false
+    t.decimal "bizon_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "bizon_trak", default: 0, null: false
+    t.integer "bizon_trak_count", default: 0, null: false
+    t.string "bizon_tag", limit: 256, default: "", null: false
+    t.integer "bizon_seed", default: -1, null: false
+    t.integer "famas", default: 0, null: false
+    t.decimal "famas_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "famas_trak", default: 0, null: false
+    t.integer "famas_trak_count", default: 0, null: false
+    t.string "famas_tag", limit: 256, default: "", null: false
+    t.integer "famas_seed", default: -1, null: false
+    t.integer "galilar", default: 0, null: false
+    t.decimal "galilar_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "galilar_trak", default: 0, null: false
+    t.integer "galilar_trak_count", default: 0, null: false
+    t.string "galilar_tag", limit: 256, default: "", null: false
+    t.integer "galilar_seed", default: -1, null: false
+    t.integer "ssg08", default: 0, null: false
+    t.decimal "ssg08_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "ssg08_trak", default: 0, null: false
+    t.integer "ssg08_trak_count", default: 0, null: false
+    t.string "ssg08_tag", limit: 256, default: "", null: false
+    t.integer "ssg08_seed", default: -1, null: false
+    t.integer "aug", default: 0, null: false
+    t.decimal "aug_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "aug_trak", default: 0, null: false
+    t.integer "aug_trak_count", default: 0, null: false
+    t.string "aug_tag", limit: 256, default: "", null: false
+    t.integer "aug_seed", default: -1, null: false
+    t.integer "sg556", default: 0, null: false
+    t.decimal "sg556_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "sg556_trak", default: 0, null: false
+    t.integer "sg556_trak_count", default: 0, null: false
+    t.string "sg556_tag", limit: 256, default: "", null: false
+    t.integer "sg556_seed", default: -1, null: false
+    t.integer "scar20", default: 0, null: false
+    t.decimal "scar20_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "scar20_trak", default: 0, null: false
+    t.integer "scar20_trak_count", default: 0, null: false
+    t.string "scar20_tag", limit: 256, default: "", null: false
+    t.integer "scar20_seed", default: -1, null: false
+    t.integer "g3sg1", default: 0, null: false
+    t.decimal "g3sg1_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "g3sg1_trak", default: 0, null: false
+    t.integer "g3sg1_trak_count", default: 0, null: false
+    t.string "g3sg1_tag", limit: 256, default: "", null: false
+    t.integer "g3sg1_seed", default: -1, null: false
+    t.integer "knife_karambit", default: 0, null: false
+    t.decimal "knife_karambit_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_karambit_trak", default: 0, null: false
+    t.integer "knife_karambit_trak_count", default: 0, null: false
+    t.string "knife_karambit_tag", limit: 256, default: "", null: false
+    t.integer "knife_karambit_seed", default: -1, null: false
+    t.integer "knife_m9_bayonet", default: 0, null: false
+    t.decimal "knife_m9_bayonet_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_m9_bayonet_trak", default: 0, null: false
+    t.integer "knife_m9_bayonet_trak_count", default: 0, null: false
+    t.string "knife_m9_bayonet_tag", limit: 256, default: "", null: false
+    t.integer "knife_m9_bayonet_seed", default: -1, null: false
+    t.integer "bayonet", default: 0, null: false
+    t.decimal "bayonet_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "bayonet_trak", default: 0, null: false
+    t.integer "bayonet_trak_count", default: 0, null: false
+    t.string "bayonet_tag", limit: 256, default: "", null: false
+    t.integer "bayonet_seed", default: -1, null: false
+    t.integer "knife_survival_bowie", default: 0, null: false
+    t.decimal "knife_survival_bowie_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_survival_bowie_trak", default: 0, null: false
+    t.integer "knife_survival_bowie_trak_count", default: 0, null: false
+    t.string "knife_survival_bowie_tag", limit: 256, default: "", null: false
+    t.integer "knife_survival_bowie_seed", default: -1, null: false
+    t.integer "knife_butterfly", default: 0, null: false
+    t.decimal "knife_butterfly_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_butterfly_trak", default: 0, null: false
+    t.integer "knife_butterfly_trak_count", default: 0, null: false
+    t.string "knife_butterfly_tag", limit: 256, default: "", null: false
+    t.integer "knife_butterfly_seed", default: -1, null: false
+    t.integer "knife_flip", default: 0, null: false
+    t.decimal "knife_flip_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_flip_trak", default: 0, null: false
+    t.integer "knife_flip_trak_count", default: 0, null: false
+    t.string "knife_flip_tag", limit: 256, default: "", null: false
+    t.integer "knife_flip_seed", default: -1, null: false
+    t.integer "knife_push", default: 0, null: false
+    t.decimal "knife_push_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_push_trak", default: 0, null: false
+    t.integer "knife_push_trak_count", default: 0, null: false
+    t.string "knife_push_tag", limit: 256, default: "", null: false
+    t.integer "knife_push_seed", default: -1, null: false
+    t.integer "knife_tactical", default: 0, null: false
+    t.decimal "knife_tactical_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_tactical_trak", default: 0, null: false
+    t.integer "knife_tactical_trak_count", default: 0, null: false
+    t.string "knife_tactical_tag", limit: 256, default: "", null: false
+    t.integer "knife_tactical_seed", default: -1, null: false
+    t.integer "knife_falchion", default: 0, null: false
+    t.decimal "knife_falchion_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_falchion_trak", default: 0, null: false
+    t.integer "knife_falchion_trak_count", default: 0, null: false
+    t.string "knife_falchion_tag", limit: 256, default: "", null: false
+    t.integer "knife_falchion_seed", default: -1, null: false
+    t.integer "knife_gut", default: 0, null: false
+    t.decimal "knife_gut_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_gut_trak", default: 0, null: false
+    t.integer "knife_gut_trak_count", default: 0, null: false
+    t.string "knife_gut_tag", limit: 256, default: "", null: false
+    t.integer "knife_gut_seed", default: -1, null: false
+    t.integer "knife_ursus", default: 0, null: false
+    t.decimal "knife_ursus_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_ursus_trak", default: 0, null: false
+    t.integer "knife_ursus_trak_count", default: 0, null: false
+    t.string "knife_ursus_tag", limit: 256, default: "", null: false
+    t.integer "knife_ursus_seed", default: -1, null: false
+    t.integer "knife_gypsy_jackknife", default: 0, null: false
+    t.decimal "knife_gypsy_jackknife_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_gypsy_jackknife_trak", default: 0, null: false
+    t.integer "knife_gypsy_jackknife_trak_count", default: 0, null: false
+    t.string "knife_gypsy_jackknife_tag", limit: 256, default: "", null: false
+    t.integer "knife_gypsy_jackknife_seed", default: -1, null: false
+    t.integer "knife_stiletto", default: 0, null: false
+    t.decimal "knife_stiletto_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_stiletto_trak", default: 0, null: false
+    t.integer "knife_stiletto_trak_count", default: 0, null: false
+    t.string "knife_stiletto_tag", limit: 256, default: "", null: false
+    t.integer "knife_stiletto_seed", default: -1, null: false
+    t.integer "knife_widowmaker", default: 0, null: false
+    t.decimal "knife_widowmaker_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_widowmaker_trak", default: 0, null: false
+    t.integer "knife_widowmaker_trak_count", default: 0, null: false
+    t.string "knife_widowmaker_tag", limit: 256, default: "", null: false
+    t.integer "knife_widowmaker_seed", default: -1, null: false
+    t.integer "mp5sd", default: 0, null: false
+    t.decimal "mp5sd_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "mp5sd_trak", default: 0, null: false
+    t.integer "mp5sd_trak_count", default: 0, null: false
+    t.string "mp5sd_tag", limit: 256, default: "", null: false
+    t.integer "mp5sd_seed", default: -1, null: false
+    t.integer "knife_css", default: 0, null: false
+    t.decimal "knife_css_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_css_trak", default: 0, null: false
+    t.integer "knife_css_trak_count", default: 0, null: false
+    t.string "knife_css_tag", limit: 256, default: "", null: false
+    t.integer "knife_css_seed", default: -1, null: false
+    t.integer "knife_cord", default: 0, null: false
+    t.decimal "knife_cord_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_cord_trak", default: 0, null: false
+    t.integer "knife_cord_trak_count", default: 0, null: false
+    t.string "knife_cord_tag", limit: 256, default: "", null: false
+    t.integer "knife_cord_seed", default: -1, null: false
+    t.integer "knife_canis", default: 0, null: false
+    t.decimal "knife_canis_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_canis_trak", default: 0, null: false
+    t.integer "knife_canis_trak_count", default: 0, null: false
+    t.string "knife_canis_tag", limit: 256, default: "", null: false
+    t.integer "knife_canis_seed", default: -1, null: false
+    t.integer "knife_outdoor", default: 0, null: false
+    t.decimal "knife_outdoor_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_outdoor_trak", default: 0, null: false
+    t.integer "knife_outdoor_trak_count", default: 0, null: false
+    t.string "knife_outdoor_tag", limit: 256, default: "", null: false
+    t.integer "knife_outdoor_seed", default: -1, null: false
+    t.integer "knife_skeleton", default: 0, null: false
+    t.decimal "knife_skeleton_float", precision: 3, scale: 2, default: "0.0", null: false
+    t.integer "knife_skeleton_trak", default: 0, null: false
+    t.integer "knife_skeleton_trak_count", default: 0, null: false
+    t.string "knife_skeleton_tag", limit: 256, default: "", null: false
+    t.integer "knife_skeleton_seed", default: -1, null: false
+  end
+
+  create_table "weapons_timestamps", primary_key: "steamid", id: :string, limit: 32, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci", force: :cascade do |t|
+    t.integer "last_seen", null: false
   end
 
 end

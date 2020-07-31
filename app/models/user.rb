@@ -1,3 +1,5 @@
+require 'active_support'
+
 class User < ApplicationRecord
   connects_to database: { writing: :primary, reading: :primary }
   # Include default devise modules. Others available are:
@@ -20,7 +22,23 @@ class User < ApplicationRecord
     %w(superadmin moderator).include? role
   end
 
+  def moder?
+    %w(moderator).include? role
+  end
+
   def title
     nickname
+  end
+
+  def generate_auth_token!
+    tokens = Devise.token_generator.generate(User,:auth_token)
+
+    auth_token_plain = tokens.second
+    self.update!(auth_token: auth_token_plain)
+    tokens.first
+  end
+
+  def auth_token_valid?(encoded_token)
+    Devise.token_generator.digest(User,:auth_token, encoded_token) == self.auth_token
   end
 end
