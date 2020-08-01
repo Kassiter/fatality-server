@@ -5,8 +5,8 @@ class ContestsController < ApplicationController
       contest = Contest.where('due_date > ?', DateTime.now).last
 
       user = User.find_by(steamID: params[:steam_id])
-      contest_today = Contest.where('due_date <=  ?', DateTime.now - 5).last
-      winner = ContestsUser.find_by(user_id: user.id, contest_id: contest_today.id).try(:winner)
+      contest_today = Contest.where('due_date <=  ?', DateTime.now + 5).last
+      winner = ContestsUser.find_by(user_id: user&.id, contest_id: contest_today&.id).try(:winner)
       
       return render json: {contest: nil} if contest.nil? && !winner
 
