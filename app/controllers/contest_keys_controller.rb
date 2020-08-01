@@ -4,8 +4,7 @@ class ContestKeysController < ApplicationController
    def index_keys
       authorize!
       done = ContestKey.where(on_date: Date.today).where.not(report: "").count == 5
-      return render json: {keys: ContestKey.where(on_date: Date.today).last(5).as_json, all_done: done} if done
-      return render json: {keys: ContestKey.where(on_date: Date.today).last(5).as_json}
+      return render json: {keys: ContestKey.where(on_date: Date.today).last(5).as_json, all_done: done}
    end
 
    def submit_report

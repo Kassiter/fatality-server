@@ -3,15 +3,28 @@ class ContestsController < ApplicationController
 
    def index
       contest = Contest.where('due_date > ?', DateTime.now).last
-      return render json: {contest: nil} if contest.nil?
+
+      user = User.find_by(steamID: params[:steam_id])
+      contest_today = Contest.where('due_date <=  ?', DateTime.now - 5).last
+      winner = ContestsUser.find_by(user_id: user.id, contest_id: contest_today.id).try(:winner)
+      
+      return render json: {contest: nil} if contest.nil? && !winner
+
+      if contest_today && winner
+         contest_today = contest_today.as_json
+         contest_today["winner"] = winner
+         contest_today["due_date"] = contest_today["due_date"].to_date.strftime("%d.%m.%y")
+         return render json: {contest: contest_today}
+      end
+
      
       contest_id = contest.id
       contest = contest.as_json
       contest["due_date"] = contest["due_date"].to_date.strftime("%d.%m.%y")
-      user = User.find_by(steamID: params[:steam_id])
+      
       participating = ContestsUser.find_by(user_id: user.id, contest_id: contest_id).present?
       contest["participating"] = participating
-      render json: {contest: contest}
+      return render json: {contest: contest} if contest
    end
 
    def take_part
