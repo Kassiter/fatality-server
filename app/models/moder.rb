@@ -7,4 +7,8 @@ class Moder < ApplicationRecord
    def contest?
       self.m_type == 'contest'
    end
+
+   def contest?
+      self.m_type == 'ruller'
+   end
 end

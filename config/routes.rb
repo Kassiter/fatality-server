@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :logs
   resources :refunds
   resources :contests
   resources :moder_contests
@@ -21,6 +20,9 @@ Rails.application.routes.draw do
   get 'moders/m_points', to: "users#get_m_points"
   post 'refund/take_part', to: "refunds#apply_form"
   get  'refund/participating', to: "refunds#participating"
+  post  'logs/pull', to: "logs#pull_log!", format: :json
+  get  'logs/show_log', to: "logs#show_log"
+  post  'logs/report', to: "logs#report_rows"
   post '/personal_items/request_item', to: "personal_items#request_item"
   get '/auth/steam/callback', to: "users#handle_steam_login"
   post '/auth/steam/callback', to: "users#handle_steam_login"

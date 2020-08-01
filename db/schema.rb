@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_01_061539) do
+ActiveRecord::Schema.define(version: 2020_08_01_141515) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -47,6 +47,8 @@ ActiveRecord::Schema.define(version: 2020_08_01_061539) do
     t.date "on_date", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.boolean "reported", default: false
+    t.integer "reported_rows", default: [-1], null: false, array: true
   end
 
   create_table "moder_contests", force: :cascade do |t|

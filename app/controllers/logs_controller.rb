@@ -1,46 +1,56 @@
+require 'net/ftp'
+
 class LogsController < ApplicationController
    skip_before_action :verify_authenticity_token 
 
-   def index_keys
-      authorize!
-      done = ContestKey.where(on_date: Date.today).where.not(report: "").count == 5
-      return render json: {keys: ContestKey.where(on_date: Date.today).last(5).as_json, all_done: done} if done
-      return render json: {keys: ContestKey.where(on_date: Date.today).last(5).as_json}
-   end
+   def pull_log!
+      return render json: {error: 'Too early'}, status: 400 if DateTime.now.strftime("%H").to_i < 15
+      return render json: {error: 'Already pulled'}, status: 400 unless Log.where(on_date: Date.today).last.nil?
 
-   def submit_report
-      authorize!
-      result = ContestKey.find_by(id: params[:id]).update(
-         report: params[:report]
-      )
+      ftp = Net::FTP.new
+      ftp.connect('91.211.118.15', '21')
+      ftp.login('s26836', '261383')
+      files = ftp.chdir('addons/sourcemod/logs')
+      logfile_name = "L#{Date.today.strftime("%Y%m%d")}.log"
+      f = ftp.getbinaryfile(logfile_name, logfile_name)
+      ftp.close
 
-      return render json: {error: 'Bad request'}, status: 400 unless result
-   end
-
-   def generate_keys
-      authorize!
-
-      return render json: {error: 'Keys already exist'}, status: 400 if ContestKey.where(on_date: Date.today).last.present?
-
-      5.times do 
-         key_ent = ContestKey.create!(key: Devise.friendly_token.slice(0, 20), on_date: Date.today)
-         PrevilegiesKey.create!(
-            key_name: key_ent.key,
-            type: "shop_credits",
-            expires: 0,
-            uses: 1,
-            sid: 0,
-            param1: "6000"
-         )
+      log = ""
+      File.open(logfile_name, "r") do |f|
+         f.each_line do |line|
+            log+=line
+         end
       end
 
-      render json: ContestKey.where(on_date: Date.today).last(5).as_json
+      log = log.split("\n").uniq.join("\n")
+
+      Log.create!(text: log, on_date: Date.today, reported_rows: [-1])
+      File.delete(logfile_name) if File.exist?(logfile_name)
+
+      return render json: {status: 200}, status: 200
+   end
+
+   def show_log
+      authorize!
+      result = Log.where(on_date: Date.today).last.as_json
+
+      return render json: {log: result}, status: 200
+   end
+
+   def report_rows
+      authorize!
+      log = Log.where(on_date: Date.today, reported: false).last
+      return render json: {error: 'Log already reported or doesn\'t exist'}, status: 400 if log.nil?
+
+      update = log.update(text: params[:rows], reported: true)
+
+      render json: {status: 200}, status: 200 if update
    end
 
    def authorize!
       user = User.find_by(steamID: params[:steamID])
       return render json: {error: 'Bad request'}, status: 400 if user.nil? 
 
-      return render json: {error: 'Unauthorized'}, status: 401  unless user.moder? && user.auth_token_valid?(params[:auth_token]) && Moder.find_by(id: user.id).contest?
+      return render json: {error: 'Unauthorized'}, status: 401  unless user.moder? && user.auth_token_valid?(params[:auth_token]) && Moder.find_by(id: user.id).ruler?
    end
 end
