@@ -38,8 +38,6 @@ class ContestKeysController < ApplicationController
 
    def authorize!
       user = User.find_by(steamID: params[:steamID])
-      return render json: {error: 'Bad request'}, status: 400 if user.nil? 
-
-      return render json: {error: 'Unauthorized'}, status: 401  unless user.moder? && user.auth_token_valid?(params[:auth_token]) && Moder.find_by(id: user.id).contest?
+      return render json: {error: 'Unauthorized'}, status: 401  unless user.moder? && user.auth_token_valid?(params[:auth_token]) && Moder.find_by(id: user.id).contest? && user.present?
    end
 end
