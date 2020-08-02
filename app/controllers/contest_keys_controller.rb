@@ -20,8 +20,8 @@ class ContestKeysController < ApplicationController
       authorize!
 
       return render json: {error: 'Keys already exist'}, status: 400 if ContestKey.where(on_date: Date.today).last.present?
-      key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
       5.times do 
+         key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
          key_ent = ContestKey.create!(key: key, on_date: Date.today)
          PrevilegiesKey.create!(
             key_name: key_ent.key,
