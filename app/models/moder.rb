@@ -11,4 +11,6 @@ class Moder < ApplicationRecord
    def ruler?
       self.m_type == 'ruler'
    end
+
+   scope :contest, -> { where(m_type: :contest).last }
 end
