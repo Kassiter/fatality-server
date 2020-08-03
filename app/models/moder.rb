@@ -13,4 +13,8 @@ class Moder < ApplicationRecord
    end
 
    scope :contest, -> { where(m_type: :contest).last }
+
+   def name
+      self.nickname
+   end
 end
