@@ -4,21 +4,36 @@ class LogsController < ApplicationController
    skip_before_action :verify_authenticity_token 
 
    def pull_log!
-      return render json: {error: 'Too early'}, status: 400 if DateTime.now.strftime("%H").to_i < 15
+      return render json: {error: 'Too early'}, status: 400 if DateTime.now.strftime("%H").to_i < 20
       return render json: {error: 'Already pulled'}, status: 400 unless Log.where(on_date: Date.today).last.nil?
 
       ftp = Net::FTP.new
       ftp.connect('91.211.118.15', '21')
       ftp.login('s26836', '261383')
+      logfile_name = "console.log"
+      f = ftp.getbinaryfile(logfile_name, logfile_name)
+      
+
+      log = ""
+      File.open(logfile_name, "r") do |f|
+         f.each_line do |line|
+            if line.include?("<STEAM_") && line.include?("#{Date.today.strftime('%m/%d/%Y')}") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game/].present?
+               log+=line
+            end
+         end
+      end
+
+
       files = ftp.chdir('addons/sourcemod/logs')
       logfile_name = "L#{Date.today.strftime("%Y%m%d")}.log"
       f = ftp.getbinaryfile(logfile_name, logfile_name)
       ftp.close
 
-      log = ""
       File.open(logfile_name, "r") do |f|
          f.each_line do |line|
-            log+=line
+            if line.include?("<STEAM_") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game/].present?
+               log+=line
+            end
          end
       end
 
