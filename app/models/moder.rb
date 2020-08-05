@@ -1,4 +1,6 @@
 class Moder < ApplicationRecord
+   connects_to database: { writing: :primary, reading: :primary }
+
    self.table_name = 'users'
    default_scope { where(role: 2) }
 

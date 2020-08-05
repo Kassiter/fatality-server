@@ -1,4 +1,5 @@
 class ContestKey < ApplicationRecord
+   connects_to database: { writing: :primary, reading: :primary }
    after_commit :add_m_points, if: proc { |object| object.previous_changes.include?('approved') }
 
    def add_m_points

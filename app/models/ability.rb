@@ -7,9 +7,33 @@ class Ability
   def initialize(user)
     can :read, :all                 # allow everyone to read everything
     return unless user && user.admin?
+
     # can :access, :rails_admin       # only allow admin users to access Rails Admin
     # can :read, :dashboard           # allow access to dashboard
-    
+    if user.moder&.main?
+      
+      #can :read, :dashboard 
+      
+      can :manage, ManageCommand
+      can :manage, ManageCommandCategory
+      can :access, :rails_admin
+      cannot :manage, PrevilegiesKey
+      cannot :manage, User
+      cannot :manage, Contest
+      cannot :manage, ContestKey
+      cannot :manage, ContestsUser
+      cannot :manage, Log
+      cannot :manage, Moder
+      cannot :manage, ModerContest
+      cannot :manage, ModerContestsUser
+      cannot :manage, PersonalFeature
+      cannot :manage, PersonalItem
+      cannot :manage, Priviliege
+      cannot :manage, PriviliegesFeature
+      cannot :manage, Refund
+      cannot :manage, VipUser
+    end
+
     if user.superadmin?
       can :manage, :all
       # can :manage, :personal_feature
@@ -22,6 +46,7 @@ class Ability
       # can :manage, :moder_contest
       can :read, :dashboard   
     end        # allow superadmins to do anything
+
     # elsif user.role? :manager
     #   can :manage, [User, Product]  # allow managers to do anything to products and users
     # elsif user.role? :sales

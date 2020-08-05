@@ -30,6 +30,10 @@ class User < ApplicationRecord
     nickname
   end
 
+  def moder
+    Moder.where(id: id).last
+  end
+
   def generate_auth_token!
     tokens = Devise.token_generator.generate(User,:auth_token)
 

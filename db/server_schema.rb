@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_02_174305) do
+ActiveRecord::Schema.define(version: 2020_08_05_174636) do
 
   create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "key", null: false
@@ -71,6 +71,24 @@ ActiveRecord::Schema.define(version: 2020_08_02_174305) do
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "reported", default: false
     t.integer "reported_rows", null: false
+    t.decimal "m_points_add", precision: 10, default: "0"
+  end
+
+  create_table "manage_command_categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "manage_commands", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "group", null: false
+    t.string "name", null: false
+    t.string "target", null: false
+    t.string "description", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "param"
+    t.integer "manage_command_category_id", null: false
   end
 
   create_table "moder_contests", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|

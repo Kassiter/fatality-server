@@ -1,4 +1,6 @@
 class Contest < ApplicationRecord
+   connects_to database: { writing: :primary, reading: :primary }
+
    has_many :contests_users
    has_many :users, through: :contests_users
 

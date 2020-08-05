@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_02_174305) do
+ActiveRecord::Schema.define(version: 2020_08_05_174636) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,24 @@ ActiveRecord::Schema.define(version: 2020_08_02_174305) do
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "reported", default: false
     t.integer "reported_rows", default: [-1], null: false, array: true
+    t.decimal "m_points_add", default: "0.0"
+  end
+
+  create_table "manage_command_categories", force: :cascade do |t|
+    t.string "name", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "manage_commands", force: :cascade do |t|
+    t.string "group", null: false
+    t.string "name", null: false
+    t.string "target", null: false
+    t.string "description", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "param"
+    t.integer "manage_command_category_id", null: false
   end
 
   create_table "moder_contests", force: :cascade do |t|
