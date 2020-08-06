@@ -31,7 +31,7 @@ class LogsController < ApplicationController
 
       File.open(logfile_name, "r") do |f|
          f.each_line do |line|
-            if line.include?("<STEAM_") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched from|killed other/].present?
+            if line.include?("<STEAM_") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched from|killed other|func_|kjrqht/].present?
                log+=line
             end
          end
