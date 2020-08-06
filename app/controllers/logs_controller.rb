@@ -17,7 +17,7 @@ class LogsController < ApplicationController
       log = ""
       File.open(logfile_name, "r") do |f|
          f.each_line do |line|
-            if line.include?("<STEAM_") && !line.include?("#{Date.today.strftime('%m/%d/%Y')}") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched|killed other|func_|STEAM USERID validated|killed "|!vip|!shop|!tp|kjrqht/].present?
+            if line.include?("<STEAM_") && !line.include?("#{Date.today.strftime('%m/%d/%Y')}") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched|killed other|func_|STEAM USERID validated|kill|!vip|!shop|!tp|!games|!lot|rtv|!emote|kjrqht/].present?
                log+=line
             end
          end
@@ -31,7 +31,7 @@ class LogsController < ApplicationController
 
       File.open(logfile_name, "r") do |f|
          f.each_line do |line|
-            if line.include?("<STEAM_") && !line.include?("#{Date.today.strftime('%m/%d/%Y')}") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched|killed other|func_|STEAM USERID validated|killed "|!vip|!shop|!tp|kjrqht/].present?
+            if line.include?("<STEAM_") && !line.include?("#{Date.today.strftime('%m/%d/%Y')}") && !line[/Console<|T-double-U|STEAM_1:1:153969439|connected|entered the game|threw|entindex|committed|switched|killed other|func_|STEAM USERID validated|kill|!vip|!shop|!tp|!games|!lot|rtv|!emote|kjrqht/].present?
                log+=line
             end
          end
@@ -48,7 +48,6 @@ class LogsController < ApplicationController
    def show_log
       authorize!
       result = Log.where(on_date: Date.today).last.as_json
-
       return render json: {log: result}, status: 200
    end
 
