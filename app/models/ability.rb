@@ -34,7 +34,7 @@ class Ability
       cannot :manage, VipUser
     end
 
-    if user.cto
+    if user.cto?
       
       #can :read, :dashboard 
       
