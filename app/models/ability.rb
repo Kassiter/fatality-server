@@ -34,6 +34,30 @@ class Ability
       cannot :manage, VipUser
     end
 
+    if user.cto
+      
+      #can :read, :dashboard 
+      
+      can :manage, ManageCommand
+      can :manage, ManageCommandCategory
+      can :access, :rails_admin
+      cannot :manage, PrevilegiesKey
+      cannot :manage, User
+      can :manage, Contest
+      cannot :manage, ContestKey
+      can :manage, ContestsUser
+      cannot :manage, Log
+      can :manage, Moder
+      can :manage, ModerContest
+      can :manage, ModerContestsUser
+      can :manage, PersonalFeature
+      can :manage, PersonalItem
+      can :manage, Priviliege
+      can :manage, PriviliegesFeature
+      cannot :manage, Refund
+      cannot :manage, VipUser
+    end
+
     if user.superadmin?
       can :manage, :all
       # can :manage, :personal_feature

@@ -13,7 +13,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  enum role: [:user, :superadmin, :moderator]
+  enum role: [:user, :superadmin, :moderator, :cto]
 
   validates_uniqueness_of :steamID
   validates_uniqueness_of :email
