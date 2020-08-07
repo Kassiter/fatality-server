@@ -19,7 +19,7 @@ class User < ApplicationRecord
   validates_uniqueness_of :email
 
   def admin?
-    %w(superadmin moderator).include? role
+    %w(superadmin moderator cto).include? role
   end
 
   def moder?
