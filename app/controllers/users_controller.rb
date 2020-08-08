@@ -70,5 +70,15 @@ class UsersController < ApplicationController
       user = User.find_by(steamID: params[:steam_id])
       return render json: {m_points: user.m_points}
    end
+
+
+   def get_administration
+      ceo = User.superadmin.first
+      cto = User.cto.first
+      main_moder = Moder.where(m_type: 'main').first
+      contest_moder = Moder.where(m_type: 'contest').first
+      ruler_moder = Moder.where(m_type: 'ruler').first
+      return render json: {admins: [ceo, cto], moders: [main_moder, contest_moder, ruler_moder]}
+   end
 end
  

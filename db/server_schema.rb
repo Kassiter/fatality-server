@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_05_174636) do
+ActiveRecord::Schema.define(version: 2020_08_08_165626) do
 
   create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "key", null: false
@@ -72,6 +72,22 @@ ActiveRecord::Schema.define(version: 2020_08_05_174636) do
     t.boolean "reported", default: false
     t.integer "reported_rows", null: false
     t.decimal "m_points_add", precision: 10, default: "0"
+  end
+
+  create_table "lvl_base", primary_key: "steam", id: :string, limit: 22, collation: "utf8_general_ci", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.string "name", limit: 32, default: "", null: false
+    t.integer "value", default: 0, null: false
+    t.integer "rank", default: 0, null: false
+    t.integer "kills", default: 0, null: false
+    t.integer "deaths", default: 0, null: false
+    t.integer "shoots", default: 0, null: false
+    t.integer "hits", default: 0, null: false
+    t.integer "headshots", default: 0, null: false
+    t.integer "assists", default: 0, null: false
+    t.integer "round_win", default: 0, null: false
+    t.integer "round_lose", default: 0, null: false
+    t.integer "playtime", default: 0, null: false
+    t.integer "lastconnect", default: 0, null: false
   end
 
   create_table "manage_command_categories", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -243,6 +259,8 @@ ActiveRecord::Schema.define(version: 2020_08_05_174636) do
     t.string "auth_token", default: ""
     t.string "key_phrase", default: ""
     t.decimal "m_points", precision: 10, default: "0"
+    t.string "avatar_secondary", default: ""
+    t.string "position_name", default: ""
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

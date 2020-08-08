@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   post '/contest_keys/submit_report', to: "contest_keys#submit_report"
   post '/contest_keys/generate_keys', to: "contest_keys#generate_keys"
   get '/users/vip_data', to: "vip_users#show_vip"
+  get '/users/admins', to: "users#get_administration"
   get '/manage_command_categories/mc_categories', to: "manage_command_categories#mc_categories"
   get 'users/refresh', to: "users#refresh_user_data"
   post 'contests/take_part', to: "contests#take_part"

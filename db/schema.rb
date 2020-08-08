@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_05_174636) do
+ActiveRecord::Schema.define(version: 2020_08_08_165626) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2020_08_05_174636) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.date "on_date", null: false
-    t.text "report"
+    t.text "report", default: ""
   end
 
   create_table "contests", force: :cascade do |t|
@@ -170,6 +170,8 @@ ActiveRecord::Schema.define(version: 2020_08_05_174636) do
     t.string "auth_token", default: ""
     t.string "key_phrase", default: ""
     t.decimal "m_points", default: "0.0"
+    t.string "avatar_secondary", default: ""
+    t.string "position_name", default: ""
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
