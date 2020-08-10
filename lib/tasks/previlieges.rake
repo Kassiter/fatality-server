@@ -4,7 +4,7 @@ namespace :privilieges do
   desc "TODO"
   task generate_keys: :environment do
     month = 2592000
-    %w([VIP] [Supreme] [Admin+]).each do |group|
+    %w([VIP] [Supreme]).each do |group|
       file_name_month = "tmp/#{group}_month_#{DateTime.now.strftime("%d_%m_%G-%s")}.txt"
       File.write(file_name_month, "", mode: 'a');
       15.times do
