@@ -54,19 +54,21 @@
   </head>
   <body>
     <div class="card">
-      <div class="heading"></div>
-      <div class="container-1" style="flex-direction: column !important">
-        <h1>Приобретён персональный товар</h1>
-        <div class="desc">
-          <p><%= @user.nickname %> приобрёл товар <%= @key.split('-').first %>.<p/>
-          <p>Ключ: <%= @key %>.<p/>
-          <p>Steam ID: <%= @user.steamID %>.<p/>
-        </div>
-      </div>
-      <div class="footer">
+      <table>
+      <tr><div class="heading"></div></tr>
+      <tr class="text-container"><div class="container-1" style="flex-direction: column !important">
+        <tr><h1 style="color: black">Приобретён персональный товар</h1></tr>
+        <tr><div class="desc">
+          <p style="color: black"><%= @user.nickname %> приобрёл товар <%= @key.split('-').first %>.<p/>
+          <p style="color: black">Ключ: <%= @key %>.<p/>
+          <p style="color: black">Steam ID: <%= @user.steamID %>.<p/>
+        </div></tr>
+      </div></tr>
+      <tr><div class="footer">
         <p>С уважением, администрация Rollin'Deuce.</p>
         <p>rollindeuce.online</p>
-      </div>
+      </div></tr>
+      </table>
     </div>
   </body>
 </html>
