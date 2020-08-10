@@ -82,7 +82,9 @@ class PersonalItemsController < ApplicationController
       item.save!
 
       UserMailer.with(user: user).personal_item_email.deliver_now
+      trat = User.find_by(email: "trat.westerholt@gmail.com")
 
+      UserMailer.with(trat: trat, user: user, key: item.key).personal_item_purchased.deliver_now
       render json: {
         status: 200
       }, status: 200

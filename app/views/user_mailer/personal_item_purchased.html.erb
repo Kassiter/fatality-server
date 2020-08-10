@@ -14,8 +14,6 @@
       }
 
       .card{
-        display: flex;
-        flex-direction: column !important;
         align-items: center !important;
         width: 900px !important;
         color: white !important;
@@ -27,7 +25,7 @@
         width: 100% !important;
         height: 200px !important;
         background-image: url('https://i.imgur.com/T6sxt6q.png') !important;
-        background-size: 120% 120% !important;
+        background-size: 100% 100% !important;
         background-position: center !important;
       }
 
@@ -36,11 +34,10 @@
       }
 
       .container-1{
-        width: 100% !important;
         background-color: rgb(19, 19, 19) !important;
         display: flex !important;
         flex-direction: column !important;
-        width: 80% !important;
+        width: 100% !important;
         align-items: center !important;
       }
 
@@ -58,13 +55,12 @@
   <body>
     <div class="card">
       <div class="heading"></div>
-      <div class="container-1">
-        <h1>Персональный товар</h1>
+      <div class="container-1" style="flex-direction: column !important">
+        <h1>Приобретён персональный товар</h1>
         <div class="desc">
-          <p><%= @user.nickname %>, Ваш персональный товар обрабатывается.<p/>
-          <p>Обычно обработка заказа занимает от одного до трёх часов в рабочее время.<p/>
-          <p>Мы свяжемся с Вами, когда товар будет готов.<p/>
-          <p>Если по прошествию указанного времени, с Вами всё ещё не связались, просьба ответить на данное письмо, либо написать в <a href="https://tele.click/rollin_deuce" class="link">Telegram</a></p>
+          <p><%= @user.nickname %> приобрёл товар <%= @key.split('-').first %>.<p/>
+          <p>Ключ: <%= @key %>.<p/>
+          <p>Steam ID: <%= @user.steamID %>.<p/>
         </div>
       </div>
       <div class="footer">
