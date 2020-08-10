@@ -35,7 +35,6 @@
 
       .container-1{
         background-color: rgb(19, 19, 19) !important;
-        display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
         align-items: center !important;
@@ -43,6 +42,7 @@
 
       .desc{
         margin-left: 30px !important;
+        padding-left: 25px;
       }
 
       .footer{
@@ -50,24 +50,30 @@
         width: 94.5% !important;
         background-color: rgb(39, 39, 39) !important;
       }
+      
+
+      table {
+        border-collapse: collapse;
+        width: 750px;
+      }
     </style>
   </head>
   <body>
     <div class="card">
       <table>
-      <tr><div class="heading"></div></tr>
-      <tr class="text-container"><div class="container-1" style="flex-direction: column !important">
-        <tr><h1 style="color: black">Приобретён персональный товар</h1></tr>
-        <tr><div class="desc">
-          <p style="color: black"><%= @user.nickname %> приобрёл товар <%= @key.split('-').first %>.<p/>
-          <p style="color: black">Ключ: <%= @key %>.<p/>
-          <p style="color: black">Steam ID: <%= @user.steamID %>.<p/>
-        </div></tr>
-      </div></tr>
-      <tr><div class="footer">
+      <tr><td class="heading"></td></tr>
+      <tr class="text-container"><td class="container-1" style="flex-direction: column !important">
+        <h1 style="text-align: center">Приобретён персональный товар</h1>
+        <tr><td class="desc container-1">
+          <p ><%= @user.nickname %> приобрёл товар <%= @key.split('-').first %>.<p/>
+          <p >Ключ: <%= @key %>.<p/>
+          <p >Steam ID: <%= @user.steamID %>.<p/>
+        </td></tr>
+      </td></tr>
+      <tr><td class="footer">
         <p>С уважением, администрация Rollin'Deuce.</p>
         <p>rollindeuce.online</p>
-      </div></tr>
+      </td></tr>
       </table>
     </div>
   </body>
