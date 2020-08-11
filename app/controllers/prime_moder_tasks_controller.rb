@@ -18,6 +18,6 @@ class PrimeModerTasksController < ApplicationController
 
    def authorize!
       user = User.find_by(steamID: params[:steamID])
-      return render json: {error: 'Unauthorized'}, status: 401  unless user.moder? && user.auth_token_valid?(params[:auth_token]) && Moder.find_by(id: user.id).main? && user.present?
+      return render json: {error: 'Unauthorized'}, status: 401  unless (( user.moder? && Moder.find_by(id: user.id).main?) || user.superadmin? ) && user.auth_token_valid?(params[:auth_token]) && user.present?
    end
 end
