@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_08_165626) do
+ActiveRecord::Schema.define(version: 2020_08_11_072028) do
 
   create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "key", null: false
@@ -148,6 +148,13 @@ ActiveRecord::Schema.define(version: 2020_08_08_165626) do
     t.boolean "used", default: false
     t.integer "lifetime", default: 0
     t.integer "user_id"
+  end
+
+  create_table "prime_moder_tasks", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "name", null: false
+    t.text "report"
+    t.decimal "points_cost", precision: 10, default: "0"
+    t.boolean "approved", default: false
   end
 
   create_table "privilieges", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|

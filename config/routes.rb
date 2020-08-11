@@ -29,5 +29,8 @@ Rails.application.routes.draw do
   post '/personal_items/request_item', to: "personal_items#request_item"
   get '/auth/steam/callback', to: "users#handle_steam_login"
   post '/auth/steam/callback', to: "users#handle_steam_login"
+
+  get '/prime_moder_tasks/task', to: "prime_moder_tasks#get_task"
+  post '/prime_moder_tasks/submit_report', to: "prime_moder_tasks#submit_report"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

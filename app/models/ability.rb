@@ -18,6 +18,7 @@ class Ability
       can :manage, ManageCommandCategory
       can :access, :rails_admin
       cannot :manage, PrevilegiesKey
+      cannot :manage, PrimeModerTask
       cannot :manage, User
       cannot :manage, Contest
       cannot :manage, ContestKey
