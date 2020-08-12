@@ -67,7 +67,7 @@ class UsersController < ApplicationController
    end
 
    def get_m_points
-      user = User.find_by(steamID: params[:steam_id])
+      user = Moder.find_by(m_type: params[:m_type])
       return render json: {m_points: user.m_points}
    end
 
