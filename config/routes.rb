@@ -32,5 +32,6 @@ Rails.application.routes.draw do
 
   get '/prime_moder_tasks/task', to: "prime_moder_tasks#get_task"
   post '/prime_moder_tasks/submit_report', to: "prime_moder_tasks#submit_report"
+  post '/prime_moder_tasks/upload_skin', to: "prime_moder_tasks#upload_skin"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

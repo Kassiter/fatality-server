@@ -15,12 +15,13 @@ class UsersController < ApplicationController
       user_steam_data['steamID'] = get_steam_ID(steamId64.to_i)
       if User.find_by(steamID: user_steam_data['steamID'])
          update_user!(user_steam_data)
-         user_steam_data['m_type'] = 'none' unless @user.moder? || @user.superadmin?
+         user_steam_data['m_type'] = 'none' unless @user.moder? || @user.superadmin? || @user.cto?
 
-         if @user.moder? || @user.superadmin?
+         if @user.moder? || @user.superadmin? || @user.cto?
             token = @user.generate_auth_token!
             user_steam_data['auth_token'] = token
             user_steam_data['m_type'] = @user.superadmin? ? 'ceo' : (Moder.find_by(id: @user.id)&.m_type || 'no')
+            user_steam_data['m_type'] = 'cto' if @user.cto?
          end
       else
          register_user!(user_steam_data)
