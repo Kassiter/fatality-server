@@ -36,7 +36,7 @@ class PrimeModerTasksController < ApplicationController
          if File::directory? name
            ftp.mkdir name.gsub("tmp/#{folder}/", "") rescue nil
          else
-           File.open(name) { |file| ftp.putbinaryfile(file, name.gsub("tmp/#{folder}/", "")) }
+           File.open(name) { |file| ftp.putbinaryfile(file, name.gsub("tmp/#{folder}/", "")) rescue nil }
          end
       end
 
