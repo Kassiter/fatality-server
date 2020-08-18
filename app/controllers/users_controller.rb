@@ -6,7 +6,6 @@ class UsersController < ApplicationController
 
    $frontend = ENV['RAILS_ENV'] == 'development' ? 'http://localhost:3001' : 'http://www.rollindeuce.online/'
    def handle_steam_login
-     # binding.pry
      user_steam_data = request.env['omniauth.auth']
                               .as_json["extra"]["raw_info"]
                               .as_json
