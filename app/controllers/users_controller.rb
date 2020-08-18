@@ -71,6 +71,10 @@ class UsersController < ApplicationController
       return render json: {m_points: user.m_points}
    end
 
+   def strikes
+      user = User.find_by(steamID: params['steamID'])
+      return render json: {strikes: user.strikes}
+   end
 
    def get_administration
       ceo = User.superadmin.first

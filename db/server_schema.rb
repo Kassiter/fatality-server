@@ -10,7 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_11_072028) do
+ActiveRecord::Schema.define(version: 2020_08_18_191836) do
+
+  create_table "charms", primary_key: "steamid", id: :string, limit: 18, default: "", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "weapons", limit: 512, default: "", null: false
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
+  end
 
   create_table "contest_keys", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "key", null: false
@@ -268,6 +274,8 @@ ActiveRecord::Schema.define(version: 2020_08_11_072028) do
     t.decimal "m_points", precision: 10, default: "0"
     t.string "avatar_secondary", default: ""
     t.string "position_name", default: ""
+    t.integer "strikes", default: 0
+    t.text "strikes_desc"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

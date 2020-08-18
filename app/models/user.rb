@@ -17,6 +17,7 @@ class User < ApplicationRecord
 
   validates_uniqueness_of :steamID
   validates_uniqueness_of :email
+  validates :strikes, numericality: { less_than_or_equal_to: 3,  only_integer: true }
 
   def admin?
     %w(superadmin moderator cto).include? role

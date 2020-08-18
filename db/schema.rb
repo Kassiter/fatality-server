@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_11_072028) do
+ActiveRecord::Schema.define(version: 2020_08_18_191836) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2020_08_11_072028) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.date "on_date", null: false
-    t.text "report", default: ""
+    t.text "report"
   end
 
   create_table "contests", force: :cascade do |t|
@@ -47,9 +47,8 @@ ActiveRecord::Schema.define(version: 2020_08_11_072028) do
     t.date "on_date", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "reported_rows", default: [], array: true
     t.boolean "reported", default: false
-    t.integer "reported_rows", default: [-1], null: false, array: true
-    t.decimal "m_points_add", default: "0.0"
   end
 
   create_table "manage_command_categories", force: :cascade do |t|
@@ -122,6 +121,8 @@ ActiveRecord::Schema.define(version: 2020_08_11_072028) do
     t.text "report"
     t.decimal "points_cost", default: "0.0"
     t.boolean "approved", default: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "privilieges", force: :cascade do |t|
@@ -179,6 +180,8 @@ ActiveRecord::Schema.define(version: 2020_08_11_072028) do
     t.decimal "m_points", default: "0.0"
     t.string "avatar_secondary", default: ""
     t.string "position_name", default: ""
+    t.integer "strikes", default: 0
+    t.text "strikes_desc"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

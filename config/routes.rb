@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '/users/admins', to: "users#get_administration"
   get '/manage_command_categories/mc_categories', to: "manage_command_categories#mc_categories"
   get 'users/refresh', to: "users#refresh_user_data"
+  get 'users/strikes', to: "users#strikes"
   post 'contests/take_part', to: "contests#take_part"
   post 'moder_contest/take_part', to: "moder_contests#take_part"
   get 'moders/m_points', to: "users#get_m_points"
