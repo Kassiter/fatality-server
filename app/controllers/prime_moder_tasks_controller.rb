@@ -100,7 +100,7 @@ class PrimeModerTasksController < ApplicationController
          f_name = f_name_raw.split("/").last
          f = ftp.getbinaryfile(f_name_raw, "./tmp/#{f_name}")
          insert_lines_following_line( "./tmp/#{f_name}", 1 ) do |outf|
-            outf.puts "maps/workshop/#{folder}/#{mapname}"
+            outf.puts "workshop/#{folder}/#{mapname}"
          end
 
          ftp.delete(f_name_raw)
