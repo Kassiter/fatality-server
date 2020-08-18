@@ -71,6 +71,48 @@ class PrimeModerTasksController < ApplicationController
       return render json: {status: 200}, status: 200
    end
 
+   def upload_map
+      authorize_cto!
+
+      uploaded_io = params["file"]
+      filename = uploaded_io.original_filename
+      folder = filename.split('.zip').first
+      File.open(Rails.root.join('tmp', uploaded_io.original_filename), 'wb') do |file|
+         file.write(uploaded_io.read)
+      end
+
+      %x( ./bzippify.sh #{filename} #{folder})     
+
+      ftp = Net::FTP.new 
+      ftp.connect('91.211.118.15', '21')
+      ftp.login('s26836', '261383')
+      entries = Dir.glob("tmp/#{folder}/**/*").sort
+      mapname = Dir.glob("tmp/#{folder}/**/*").grep(/.bsp$/).first.gsub(".bsp", "").split("/").last
+      entries.each do |name|
+         if File::directory? name
+           ftp.mkdir "maps/workshop/#{name.gsub("tmp/#{folder}/", "")}" rescue nil
+         else
+           File.open(name) { |file| ftp.putbinaryfile(file, "maps/workshop/#{name.gsub("tmp/#{folder}/", "")}") rescue nil }
+         end
+      end
+
+      %w(./mapcycle.txt ./my_mapcycle.txt ./addons/sourcemod/configs/adminmenu_maplist.ini).each do |f_name_raw|
+         f_name = f_name_raw.split("/").last
+         f = ftp.getbinaryfile(f_name_raw, "./tmp/#{f_name}")
+         insert_lines_following_line( "./tmp/#{f_name}", 1 ) do |outf|
+            outf.puts "maps/workshop/#{folder}/#{mapname}"
+         end
+
+         ftp.delete(f_name_raw)
+         File.open("./tmp/#{f_name}") { |file| ftp.putbinaryfile(file, f_name_raw) rescue nil }
+         File.rename("./tmp/#{f_name}", "./tmp/#{f_name.split('.').first}_#{DateTime.now.strftime("%H_%M-%d-%m-%y-%s")}.#{f_name.split('.').last}")
+      end
+
+      File.delete("tmp/#{filename}")
+      FileUtils.rm_rf("tmp/#{folder}")
+      return render json: {status: 200}, status: 200
+   end
+
    def authorize!
       user = User.find_by(steamID: params[:steamID])
       return render json: {error: 'Unauthorized'}, status: 401  unless (( user.moder? && Moder.find_by(id: user.id).main?) || user.superadmin? ) && user.auth_token_valid?(params[:auth_token]) && user.present?
