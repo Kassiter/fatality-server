@@ -94,6 +94,40 @@ class PersonalItemsController < ApplicationController
    def key_valid?
     PersonalItem.find_by(key: params[:key]).present? && !PersonalItem.find_by(key: params[:key]).try(:used)
    end
+
+   def validate_random_key
+    return render json: { error: "Key is invalid", status: 400 }, status: 400 if (params[:key].length != 41) || (!key_valid?)
+    
+    render json: { status: "OK" }, status: 200
+  end
+
+  def request_random_item
+    return render json: { error: "Key is invalid", status: 400 }, status: 400 unless key_valid?
+
+    unless params[:prize].nil?
+      if (params[:prize][:param1] != 'admin-m')
+        p_key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
+
+        PrevilegiesKey.create!(
+          key_name: p_key, 
+          type: params[:prize][:type], 
+          expires: 0, 
+          uses: 1, 
+          sid: 0, 
+          param1: params[:prize][:param1], 
+          param2: params[:prize][:param2]
+        )
+      else
+        base = Faker::String.random(length: 4..6)
+        postfix = Digest::SHA2.hexdigest base
+        p_key = "ADMIN-#{postfix}"
+        PersonalItem.create!(key: p_key, lifetime: 0)
+      end
+
+      UserMailer.with(key: p_key, email: params[:email]).random_item_email.deliver_now
+      PersonalItem.find_by(key: params[:key]).update(used: true)
+    end
+  end
  
    private
      # Use callbacks to share common setup or constraints between actions.

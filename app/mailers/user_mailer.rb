@@ -7,6 +7,12 @@ class UserMailer < ApplicationMailer
      mail(to: @user.email, subject: 'Оформление приватного товара')
    end
 
+   def random_item_email()
+    @email = params[:email]
+    @key  = params[:key]
+    mail(to: @email, subject: 'Random')
+   end
+
    def personal_item_purchased()
     @trat = params[:trat]
     @user = params[:user]

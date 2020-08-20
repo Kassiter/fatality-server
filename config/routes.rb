@@ -28,6 +28,8 @@ Rails.application.routes.draw do
   get  'logs/show_log', to: "logs#show_log"
   post  'logs/report', to: "logs#report_rows"
   post '/personal_items/request_item', to: "personal_items#request_item"
+  post '/personal_items/validate_random_key', to: "personal_items#validate_random_key"
+  post '/personal_items/request_random_item', to: "personal_items#request_random_item"
   get '/auth/steam/callback', to: "users#handle_steam_login"
   post '/auth/steam/callback', to: "users#handle_steam_login"
 
