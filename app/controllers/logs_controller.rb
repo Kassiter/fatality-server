@@ -4,7 +4,7 @@ class LogsController < ApplicationController
    skip_before_action :verify_authenticity_token 
 
    def pull_log!
-      return render json: {error: 'Too early'}, status: 400 if DateTime.now.strftime("%H").to_i < 17
+      return render json: {error: 'Too early'}, status: 400 if DateTime.now.strftime("%H").to_i < 17 && !user.superadmin?
       return render json: {error: 'Already pulled'}, status: 400 unless Log.where(on_date: Date.today).last.nil?
 
       ftp = Net::FTP.new
