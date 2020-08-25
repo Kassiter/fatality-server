@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :privilieges_features
   resources :privilieges
   get '/privilieges_all', to: "privilieges#get_privilieges"
+  get '/priviliege/generate_key', to: "privilieges#generate_key"
   get '/contest_keys/index_keys', to: "contest_keys#index_keys"
   post '/contest_keys/submit_report', to: "contest_keys#submit_report"
   post '/contest_keys/generate_keys', to: "contest_keys#generate_keys"

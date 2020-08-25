@@ -1,3 +1,5 @@
+require 'digest/bubblebabble'
+
 class PriviliegesController < ApplicationController
   before_action :set_priviliege, only: [:show, :edit, :update, :destroy]
 
@@ -64,6 +66,53 @@ class PriviliegesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def generate_key
+    authorize!
+    file_path = params[:priviliege].include?("[") ? generate_privilieges_keys : generate_personal_items_keys
+    send_file(file_path) and return
+    # send_data file_path, filename: file_path, disposition: 'inline', type: "multipart/related"
+  end
+
+  def generate_personal_items_keys
+    lt = params[:lifetime].to_s.downcase == "true" ? "lifetime" : "month"
+    file_name = "tmp/#{params[:priviliege]}_#{lt}_#{DateTime.now.strftime("%d_%m_%G-%s")}.txt"
+    10.times do
+      base = Faker::String.random(length: 4..6)
+      postfix = Digest::SHA2.hexdigest base
+      result = "#{params[:priviliege]}-#{postfix}"
+      File.write(file_name, "#{result}\n", mode: 'a')
+      PersonalItem.create!(key: result, lifetime: 1)
+    end
+    file_name
+  end
+
+  def generate_privilieges_keys
+    lt = params[:lifetime].to_s.downcase == "true" ? "lifetime" : "month"
+    duration = params[:lifetime].to_s.downcase == "true" ? 0 : 2592000
+    file_name = "tmp/#{params[:priviliege]}_#{lt}_#{DateTime.now.strftime("%d_%m_%G-%s")}.txt"
+    File.write(file_name, "", mode: 'a');
+    15.times do
+      base = Faker::String.random(length: 4..6)
+      key = Digest::SHA256.bubblebabble(base).slice(0, 28)
+      File.write(file_name, "#{key}\n", mode: 'a')
+      PrevilegiesKey.create!(
+        key_name: key, 
+        type: "vip_add", 
+        expires: 0, 
+        uses: 1, 
+        sid: 0, 
+        param1: params[:priviliege], 
+        param2: duration
+      )
+    end
+    file_name
+  end
+
+  def authorize!
+    user = User.find_by(steamID: params[:steamID])
+    return render json: {error: 'Unauthorized'}, status: 401  unless user.superadmin? && user.auth_token_valid?(params[:auth_token]) && user.present?
+ end
 
   private
     # Use callbacks to share common setup or constraints between actions.
