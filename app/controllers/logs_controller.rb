@@ -9,7 +9,7 @@ class LogsController < ApplicationController
 
       ftp = Net::FTP.new
       ftp.connect('91.211.118.15', '21')
-      ftp.login('s26836', '261383')
+      ftp.login('s26836', 'r0lld3uc')
       logfile_name = "console.log"
       f = ftp.getbinaryfile(logfile_name, logfile_name)
       

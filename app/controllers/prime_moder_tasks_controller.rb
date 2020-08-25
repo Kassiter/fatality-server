@@ -37,7 +37,7 @@ class PrimeModerTasksController < ApplicationController
 
       ftp = Net::FTP.new
       ftp.connect('91.211.118.15', '21')
-      ftp.login('s26836', '261383')
+      ftp.login('s26836', 'r0lld3uc')
       entries = Dir.glob("tmp/#{folder}/**/*").sort
       entries.each do |name|
          if File::directory? name
@@ -85,7 +85,7 @@ class PrimeModerTasksController < ApplicationController
 
       ftp = Net::FTP.new 
       ftp.connect('91.211.118.15', '21')
-      ftp.login('s26836', '261383')
+      ftp.login('s26836', 'r0lld3uc')
       entries = Dir.glob("tmp/#{folder}/**/*").sort
       mapname = Dir.glob("tmp/#{folder}/**/*").grep(/.bsp$/).first.gsub(".bsp", "").split("/").last
       entries.each do |name|
