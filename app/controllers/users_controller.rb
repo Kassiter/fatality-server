@@ -77,7 +77,7 @@ class UsersController < ApplicationController
    end
 
    def get_administration
-      ceo = User.superadmin.first
+      ceo = User.superadmin.last
       cto = User.cto.first
       main_moder = Moder.where(m_type: 'main').first
       contest_moder = Moder.where(m_type: 'contest').first
