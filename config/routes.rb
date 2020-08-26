@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :reports
   resources :manage_commands
   resources :refunds
   resources :contests
@@ -38,5 +39,6 @@ Rails.application.routes.draw do
   post '/prime_moder_tasks/submit_report', to: "prime_moder_tasks#submit_report"
   post '/prime_moder_tasks/upload_skin', to: "prime_moder_tasks#upload_skin"
   post '/prime_moder_tasks/upload_map', to: "prime_moder_tasks#upload_map"
+  post '/reports/submit_report', to: "reports#submit_report"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
