@@ -5,6 +5,7 @@ class ReportsController < ApplicationController
       user = User.find_by(steamID: params[:user][:steamID])
       return render json: {error: 'User not found'}, status: 404 if user.nil?
 
+      
       return render json: {error: 'Вы не можете подать жалобу на себя'}, status: 404 if user.nickname == params[:suspect_nickname]
 
       report = Report.where(user_id: user.id, suspect_nickname: params[:suspect_nickname]).last
@@ -18,6 +19,7 @@ class ReportsController < ApplicationController
 
       return render json: {error: 'Bad request'}, status: 400 unless result
 
+      user.update(email: params[:user][:email])
       UserMailer.with(user: user, suspect: params[:suspect_nickname], report_id: result.id).report_email.deliver_now
       # ceo = User.find_by(email: "trat.westerholt@gmail.com")
       ceo = User.find_by(email: "stylecortyj@gmail.com")

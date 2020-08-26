@@ -35,4 +35,11 @@ class UserMailer < ApplicationMailer
     @report_id = params[:report_id]
     mail(to: @ceo.email, subject: 'Жалоба')
   end
+
+  def report_reward_email()
+    @user = params[:user]
+    @key = params[:key]
+    @report_id = params[:report_id]
+    mail(to: @user.email, subject: 'Жалоба одобрена')
+  end
  end
