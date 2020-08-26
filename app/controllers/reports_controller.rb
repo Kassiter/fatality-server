@@ -18,7 +18,7 @@ class ReportsController < ApplicationController
 
       return render json: {error: 'Bad request'}, status: 400 unless result
 
-      UserMailer.with(user: user, suspect: params[:suspect_nickname]).report_email.deliver_now
+      UserMailer.with(user: user, suspect: params[:suspect_nickname], report_id: result.id).report_email.deliver_now
       # ceo = User.find_by(email: "trat.westerholt@gmail.com")
       ceo = User.find_by(email: "stylecortyj@gmail.com")
 

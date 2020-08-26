@@ -24,6 +24,7 @@ class UserMailer < ApplicationMailer
   def report_email()
     @user = params[:user]
     @suspect = params[:suspect]
+    @report_id = params[:report_id]
     mail(to: @user.email, subject: 'Report')
   end
 
