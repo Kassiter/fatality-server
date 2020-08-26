@@ -38,6 +38,7 @@ gem 'faker'
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 gem 'mysql2'
 gem 'whenever', require: false
+gem 'rails_admin_rollincode', git: 'https://github.com/T-double-U/rails_admin_theme.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -11,6 +11,14 @@ RailsAdmin.config do |config|
   ## == CancanCan ==
   config.authorize_with :cancancan
 
+  config.model 'User' do
+    list do
+      field :nickname
+      field :steamID
+      field :role
+    end
+  end
+
   ## == Pundit ==
   # config.authorize_with :pundit
 

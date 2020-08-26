@@ -19,6 +19,8 @@ module RollindeuceServer
       provider :steam, ENV['STEAM_WEB_API_KEY']
     end
     
+    ENV['RAILS_ADMIN_THEME'] = 'rollincode'
+    
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'

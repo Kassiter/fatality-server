@@ -69,7 +69,7 @@ class PriviliegesController < ApplicationController
 
   def generate_key
     authorize!
-    file_path = params[:priviliege].include?("[") ? generate_privilieges_keys : generate_personal_items_keys
+    file_path = params[:priviliege].include?("[") ? generate_privilieges_keys : params[:priviliege].include?("SHOP_CREDITS") ? generate_credits_keys : generate_personal_items_keys
     send_file(file_path) and return
     # send_data file_path, filename: file_path, disposition: 'inline', type: "multipart/related"
   end
@@ -104,6 +104,25 @@ class PriviliegesController < ApplicationController
         sid: 0, 
         param1: params[:priviliege], 
         param2: duration
+      )
+    end
+    file_name
+  end
+
+  def generate_credits_keys
+    lt = params[:lifetime].to_s.downcase == "true" ? "50000" : "25000"
+    file_name = "tmp/#{params[:priviliege]}_#{lt}_#{DateTime.now.strftime("%d_%m_%G-%s")}.txt"
+    File.write(file_name, "", mode: 'a');
+    15.times do
+      key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
+      File.write(file_name, "#{key}\n", mode: 'a')
+      PrevilegiesKey.create!(
+         key_name: key,
+         type: "shop_credits",
+         expires: 0,
+         uses: 1,
+         sid: 0,
+         param1: lt
       )
     end
     file_name
