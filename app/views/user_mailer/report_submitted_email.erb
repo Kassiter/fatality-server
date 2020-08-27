@@ -33,6 +33,10 @@
         color: white !important;
       }
 
+      a{
+        color: white;
+      }
+
       .container-1{
         background-color: rgb(19, 19, 19) !important;
         flex-direction: column !important;
@@ -59,13 +63,14 @@
     </style>
   </head>
   <body>
+    <% $host_url = ENV['RAILS_ENV'] == 'development' ? 'http://localhost:3000' : 'http://rollindeuce-backend.herokuapp.com' %>
     <div class="card">
       <table>
         <tr><td class="heading"></td></tr>
         <tr><td class="container-1">
           <h1 style="text-align: center">Репорт</h1>
           <tr><td class="desc container-1">
-            <p><%= @user.nickname %>, подал <a href="http://rollindeuce-backend.herokuapp.com/admin/report/<%=@report_id%>/edit">жалобу<a> на <%= @suspect %>.<p/>
+            <p><%= @user.nickname %>, подал <a href="<%=$host_url%>/admin/report/<%=@report_id%>/edit">жалобу<a> на <%= @suspect %>.<p/>
           </td>
         </td></tr>
         <tr><td class="footer">

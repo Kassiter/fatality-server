@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_26_155317) do
+ActiveRecord::Schema.define(version: 2020_08_27_125612) do
 
   create_table "charms", primary_key: "steamid", id: :string, limit: 18, default: "", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "weapons", limit: 512, default: "", null: false
@@ -143,6 +143,7 @@ ActiveRecord::Schema.define(version: 2020_08_26_155317) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "tooltip", default: ""
     t.boolean "login_locked", default: false
+    t.integer "discount"
   end
 
   create_table "personal_items", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -171,6 +172,7 @@ ActiveRecord::Schema.define(version: 2020_08_26_155317) do
     t.decimal "cost_month", precision: 10, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "discount"
   end
 
   create_table "privilieges_features", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|

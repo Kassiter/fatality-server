@@ -1,7 +1,8 @@
 class PersonalItemsController < ApplicationController
    before_action :set_personal_item, only: [:show, :edit, :update, :destroy]
    skip_before_action :verify_authenticity_token  
- 
+  
+   $ceo_email = ENV['RAILS_ENV'] == 'development' ? 'trat.westerholt@gmail.com' : 'stylecortyj@gmail.com'
    # GET /personal_items
    # GET /personal_items.json
    def index
@@ -82,7 +83,7 @@ class PersonalItemsController < ApplicationController
       item.save!
 
       UserMailer.with(user: user).personal_item_email.deliver_now
-      trat = User.find_by(email: "stylecortyj@gmail.com")
+      trat = User.find_by(email: $ceo_email)
 
       UserMailer.with(trat: trat, user: user, key: item.key).personal_item_purchased.deliver_now
       render json: {

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_26_155317) do
+ActiveRecord::Schema.define(version: 2020_08_27_125612) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -98,6 +98,7 @@ ActiveRecord::Schema.define(version: 2020_08_26_155317) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "tooltip", default: ""
     t.boolean "login_locked", default: false
+    t.integer "discount"
   end
 
   create_table "personal_items", force: :cascade do |t|
@@ -133,6 +134,7 @@ ActiveRecord::Schema.define(version: 2020_08_26_155317) do
     t.decimal "cost_month", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "discount"
   end
 
   create_table "privilieges_features", force: :cascade do |t|
