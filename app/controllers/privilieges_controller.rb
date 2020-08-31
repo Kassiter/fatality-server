@@ -93,8 +93,7 @@ class PriviliegesController < ApplicationController
     file_name = "tmp/#{params[:priviliege]}_#{lt}_#{DateTime.now.strftime("%d_%m_%G-%s")}.txt"
     File.write(file_name, "", mode: 'a');
     15.times do
-      base = Faker::String.random(length: 4..6)
-      key = Digest::SHA256.bubblebabble(base).slice(0, 28)
+      key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
       File.write(file_name, "#{key}\n", mode: 'a')
       PrevilegiesKey.create!(
         key_name: key, 

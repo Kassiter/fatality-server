@@ -72,6 +72,13 @@ class PersonalItemsController < ApplicationController
         description: params[:description],
         used: true
       )
+
+      vip_group_key = nil
+      if item.key.include? 'ADMIN'
+        group = item.key.include?('ULTRA') ? '[Ultra Admin]' : '[Admin+]'
+        duration = item.lifetime == 'month' ? 2592000 : 0
+        vip_group_key = generate_vip_admin_key(group, duration) 
+      end 
       
       user = User.find_by(steamID: params['user']['steamID'])
 
@@ -82,7 +89,7 @@ class PersonalItemsController < ApplicationController
       item.user = user
       item.save!
 
-      UserMailer.with(user: user).personal_item_email.deliver_now
+      UserMailer.with(user: user, vip_group_key: vip_group_key).personal_item_email.deliver_now
       trat = User.find_by(email: $ceo_email)
 
       UserMailer.with(trat: trat, user: user, key: item.key).personal_item_purchased.deliver_now
@@ -90,6 +97,20 @@ class PersonalItemsController < ApplicationController
         status: 200
       }, status: 200
     end
+   end
+
+   def generate_vip_admin_key(group, duration)
+    key = Devise.friendly_token.slice(0, 20).gsub(/[_&*]/, '-')
+    PrevilegiesKey.create!(
+      key_name: key, 
+      type: "vip_add", 
+      expires: 0, 
+      uses: 1, 
+      sid: 0, 
+      param1: group, 
+      param2: duration
+    )
+    key
    end
 
    def key_valid?
