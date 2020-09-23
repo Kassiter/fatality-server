@@ -4,7 +4,7 @@ require 'open-uri'
 class UsersController < ApplicationController
    skip_before_action :verify_authenticity_token, :only => :handle_steam_login   
 
-   $frontend = ENV['RAILS_ENV'] == 'development' ? 'http://localhost:3001' : 'http://www.rollindeuce.online/'
+   $frontend = ENV['RAILS_ENV'] == 'development' ? 'http://localhost:3001' : 'https://fatality-client.herokuapp.com/'
    def handle_steam_login
      user_steam_data = request.env['omniauth.auth']
                               .as_json["extra"]["raw_info"]

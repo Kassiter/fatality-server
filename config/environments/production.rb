@@ -90,7 +90,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.action_mailer.delivery_method = :smtp
-  host = 'rollindeuce-backend.herokuapp.com' #replace with your own url
+  host = 'fatality-server.herokuapp.com' #replace with your own url
   config.action_mailer.default_url_options = { host: host }
   
   # SMTP settings for gmail

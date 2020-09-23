@@ -32,7 +32,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   #config.action_mailer.smtp_settings = { address: '127.0.0.1', port: 1025, domain: '127.0.0.1' }
-  host = 'rollindeuce-backend.herokuapp.com' #replace with your own url
+  host = 'fatality-server.herokuapp.com' #replace with your own url
   config.action_mailer.default_url_options = { host: host }
   
   # SMTP settings for gmail
