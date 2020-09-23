@@ -1,6 +1,6 @@
 class Report < ApplicationRecord
    belongs_to :user, foreign_key: :user_id
-   after_commit :send_report_reward, if: proc { |object| object.previous_changes.include?('approved') }
+   # after_commit :send_report_reward, if: proc { |object| object.previous_changes.include?('approved') }
 
    def send_report_reward
       return unless approved

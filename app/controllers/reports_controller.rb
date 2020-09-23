@@ -1,6 +1,6 @@
 class ReportsController < ApplicationController
    skip_before_action :verify_authenticity_token
-   $ceo_email = ENV['RAILS_ENV'] == 'development' ? 'trat.westerholt@gmail.com' : 'stylecortyj@gmail.com'
+   $ceo_email = ENV['RAILS_ENV'] == 'development' ? 'trat.westerholt@gmail.com' : 'huper_05@mail.ru'
 
    def submit_report
       ActiveRecord::Base.transaction do

@@ -10,7 +10,7 @@ class PriviliegesController < ApplicationController
   end
 
   def get_privilieges
-    render json: JSON.parse(Priviliege.joins(:privilieges_features).sort_by(&:created_at).to_json(include: :privilieges_features)).uniq
+    render json: Priviliege.all.uniq
   end
 
   # GET /privilieges/1

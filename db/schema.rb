@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_27_125612) do
+ActiveRecord::Schema.define(version: 2020_08_31_185558) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -112,11 +112,6 @@ ActiveRecord::Schema.define(version: 2020_08_27_125612) do
     t.integer "user_id"
   end
 
-  create_table "previlegies_keys", force: :cascade do |t|
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "prime_moder_tasks", force: :cascade do |t|
     t.string "name", null: false
     t.text "report"
@@ -135,6 +130,7 @@ ActiveRecord::Schema.define(version: 2020_08_27_125612) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "discount"
+    t.string "img_url", default: ""
   end
 
   create_table "privilieges_features", force: :cascade do |t|

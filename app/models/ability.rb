@@ -10,31 +10,6 @@ class Ability
 
     # can :access, :rails_admin       # only allow admin users to access Rails Admin
     # can :read, :dashboard           # allow access to dashboard
-    if user.moder&.main?
-      
-      #can :read, :dashboard 
-      
-      can :manage, ManageCommand
-      can :manage, ManageCommandCategory
-      can :access, :rails_admin
-      cannot :manage, PrevilegiesKey
-      cannot :manage, PrimeModerTask
-      cannot :manage, User
-      cannot :manage, Contest
-      cannot :manage, ContestKey
-      cannot :manage, ContestsUser
-      cannot :manage, Log
-      cannot :manage, Moder
-      cannot :manage, ModerContest
-      cannot :manage, ModerContestsUser
-      cannot :manage, PersonalFeature
-      cannot :manage, PersonalItem
-      cannot :manage, Priviliege
-      cannot :manage, PriviliegesFeature
-      cannot :manage, Refund
-      cannot :manage, VipUser
-    end
-
     if user.cto?
       
       #can :read, :dashboard 
